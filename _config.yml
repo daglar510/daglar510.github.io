@@ -44,46 +44,97 @@ external-links:    # input only your own url slug. The icons with missing entrie
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
-  - category: 3D Modeling
+  - category: Programming Languages
     tools:
-    - Onshape
-    - Solidworks
-    - Creo
-    - Fusion 360 (Autodesk)
-    - Blender (for complex shapes or animations)
-    - Siemens NX
-    - Inventor (Autodesk)
-    - CATIA (Dassault Systèmes)
-  - category: Prototyping
+    - Python
+    - JavaScript
+    - Java
+    - C++
+    - C#
+    - C
+    - Kotlin
+    - SQL
+    - Lua
+
+  - category: Frameworks & Libraries
     tools:
-    - SLA
-    - CNC
-    - FDM
-    - SLS
-    - DMLS
-    - PolyJet Printing
-    - Vacuum Casting
-    - Laser Cutting
-    - Water Jet Cutting
-    - Arduino / Raspberry Pi
-    - Breadboarding for circuit testing
-  - category: Design Standards / Practices
+    - Django
+    - Flask
+    - NodeJS
+    - ExpressJS
+    - Apache Airflow
+    - Celery
+    - Pandas
+    - Unity
+    - Godot
+
+  - category: Tools & Technologies
     tools:
-    - GD&T ASME Y14
-    - ISO fits and tolerances
-    - PLM (PTC Windchill / Arena)   
-  - category: PCB Design
+    - AWS
+    - Docker
+    - DataBricks
+    - ROS (Robot Operating System)
+    - Ansys
+    - MATLAB
+    - SolidWorks
+    - Fusion 360
+    - Eagle CAD
+    - Arduino
+    - Raspberry Pi
+    - MongoDB
+    - WooCommerce
+    - WordPress
+    - Jira
+    - Git
+    - GitHub
+    - FileZilla
+    - Stripe
+    - UiPath
+
+  - category: Hardware & Embedded Systems
     tools:
-    - Altium Designer
-    - Altium
-    - Eagle 
-    - KiCad
-  - category: Problem Solving / Risk Management
+    - PCB Design
+    - 3D Printing
+    - Sensor Integration (IMU, RGB Proximity Sensors, Vibration Sensors)
+    - Power Electronics
+    - Motor Control (Arduino Due Motor Shield)
+    - Microcontroller Programming (CH341)
+    - Mechatronic Diagnosis
+    - Soldering & Iron Stitching
+
+  - category: Data Science & Machine Learning
     tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
-    - DFMEA / PFMEA 
-    - Six Sigma methodologies
-    - Shain Red-X
+    - ETL Pipelines
+    - Data Analysis
+    - Machine Learning Model Deployment
+    - Predictive Maintenance
+    - Big Data Processing
+    - Workflow Automation
+    - SQL Optimization
+    - Condition Monitoring
+
+  - category: Game Development
+    tools:
+    - GameGuru Engine
+    - Unity Game Engine
+    - Blender
+    - Android Mobile Game Development
+
+  - category: Web Development & APIs
+    tools:
+    - Back-end Development
+    - API Development
+    - Web Scraping
+    - Content Management Systems (WordPress/WooCommerce)
+
+  - category: Soft Skills
+    tools:
+    - Team Leadership (Head of Electrical & Mechanical Departments)
+    - Task Management
+    - Technical Documentation
+    - Workshop Facilitation (Arduino & Python Seminars)
+    - Problem-Solving
+    - Digital Transformation Initiatives
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
