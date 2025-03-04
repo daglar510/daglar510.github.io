@@ -1,0 +1,26 @@
+<!-- SECTION 4: certificate -->
+<section id="certificates" class="certificate-grid-section">
+    <h2>certificates</h2>
+
+    <div class="grid-container">
+        {% for item in site.certificates %}
+    <a href="{{ item.url }}" class="certificate-link">
+        <div class="certificate-card">
+            {% assign folder_path = item.path | split: "/" | slice: 0, 2 | join: "/" %}
+            {% assign image_path = "/" | append: folder_path | append: item['main-image'] %}
+            <img src="{{ image_path }}" alt="{{ item.title }} image">
+            <h3 class="certificate-title">{{ item.title }}</h3>
+            <div class="certificate-skills">
+                {% for skill in item.skills %}
+                    <span class="skill">{{ skill }}</span>
+                {% endfor %}
+            </div>
+            <p class="certificate-description">{{ item.description }}</p>
+            <button class="read-more">Read more →</button>
+        </div>
+    </a>
+{% endfor %}
+    </div>
+
+
+ </section>
