@@ -24,96 +24,96 @@ Skills: Apache Airflow
 *Issued: Jan 2025*  
 Issued by: LinkedIn  
 Skills: Django  
-[Show Credential]([https://www.linkedin.com/learning/certificates/e389800d27946ea74a1e3487de272c5f8c20d0ee2be785eac18d1b1b556f17d8?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRsWkoIG7SS6qv95flQObQQ%3D%3D])
+<a href="https://www.linkedin.com/learning/certificates/e389800d27946ea74a1e3487de272c5f8c20d0ee2be785eac18d1b1b556f17d8" target="_blank">Show Credential</a>
 
 **Elasticsearch Essential Training**  
 *Issued: Jan 2025*  
 Issued by: LinkedIn  
 Skills: Elasticsearch  
-[Show Credential]([https://www.linkedin.com/learning/certificates/0dd4fa4c7f3111b7c762a6241f1a79caaef7245258e81fcabe129aa3aa3d79de?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRsWkoIG7SS6qv95flQObQQ%3D%3D])
+<a href="https://www.linkedin.com/learning/certificates/0dd4fa4c7f3111b7c762a6241f1a79caaef7245258e81fcabe129aa3aa3d79de" target="_blank">Show Credential</a>
 
 **Elasticsearch in Depth**  
 *Issued: Jan 2025*  
 Issued by: LinkedIn  
-[Show Credential]([https://www.linkedin.com/learning/certificates/95df3b214f11ddd6309363ee964938fbc4516f1f320084bfcceaf29efe41adbe?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRsWkoIG7SS6qv95flQObQQ%3D%3D])
+<a href="https://www.linkedin.com/learning/certificates/95df3b214f11ddd6309363ee964938fbc4516f1f320084bfcceaf29efe41adbe" target="_blank">Show Credential</a>
 
 **Learning Apache Airflow**  
 *Issued: Jan 2025*  
 Issued by: LinkedIn  
 Skills: Apache Airflow, IT Automation  
-[Show Credential]([https://www.linkedin.com/learning/certificates/66d73c2973855db89c7cec52da1562a5bf818e4fedbc6218f73c9810f87d2276?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRsWkoIG7SS6qv95flQObQQ%3D%3D])
+<a href="https://www.linkedin.com/learning/certificates/66d73c2973855db89c7cec52da1562a5bf818e4fedbc6218f73c9810f87d2276" target="_blank">Show Credential</a>
 
 **Advanced Python: Working with Databases**  
 *Issued: Dec 2024*  
 Issued by: LinkedIn  
 Skills: Python, Databases  
-[Show Credential]([https://www.linkedin.com/learning/certificates/9f63811960ea1b2858d1389273114c1f8029512f1f8d0bf52d9fdf578e175eb0?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRsWkoIG7SS6qv95flQObQQ%3D%3D])
+<a href="https://www.linkedin.com/learning/certificates/9f63811960ea1b2858d1389273114c1f8029512f1f8d0bf52d9fdf578e175eb0" target="_blank">Show Credential</a>
 
 **Deploying Django Apps: Make Your Site Go Live**  
 *Issued: Dec 2024*  
 Issued by: LinkedIn  
 Skills: Django  
-[Show Credential]([https://www.linkedin.com/learning/certificates/992bf2d1a6dab7496c9dcc12d380318ab37b1e358ddcfc892ca18e210d989488?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRsWkoIG7SS6qv95flQObQQ%3D%3D])
+<a href="https://www.linkedin.com/learning/certificates/992bf2d1a6dab7496c9dcc12d380318ab37b1e358ddcfc892ca18e210d989488" target="_blank">Show Credential</a>
 
 **Django: Forms**  
 *Issued: Dec 2024*  
 Issued by: LinkedIn  
 Skills: Django, Forms  
-[Show Credential]([https://www.linkedin.com/learning/certificates/832473ff86d2fc6907e398320d8a5f21016352f6fd35873fdeeda0ad2fcb9508?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRsWkoIG7SS6qv95flQObQQ%3D%3D])
+<a href="https://www.linkedin.com/learning/certificates/832473ff86d2fc6907e398320d8a5f21016352f6fd35873fdeeda0ad2fcb9508" target="_blank">Show Credential</a>
 
 **Docker for Developers**  
 *Issued: Dec 2024*  
 Issued by: LinkedIn  
 Skills: Docker Products  
-[Show Credential]([https://www.linkedin.com/learning/certificates/cc48bfc0f3a777d9358ff9f49913296c5960a3d90f10ac8d3500ead44e5c9126?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRsWkoIG7SS6qv95flQObQQ%3D%3D])
+<a href="https://www.linkedin.com/learning/certificates/cc48bfc0f3a777d9358ff9f49913296c5960a3d90f10ac8d3500ead44e5c9126" target="_blank">Show Credential</a>
 
 **Flask Essential Training (2019)**  
 *Issued: Dec 2024*  
 Issued by: LinkedIn  
 Skills: Flask  
-[Show Credential]([https://www.linkedin.com/learning/certificates/d21fac44501f89f9453c87f0073b911c5cc2fc340c60827d88a63fdd47b779c4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRsWkoIG7SS6qv95flQObQQ%3D%3D])
+<a href="https://www.linkedin.com/learning/certificates/d21fac44501f89f9453c87f0073b911c5cc2fc340c60827d88a63fdd47b779c4" target="_blank">Show Credential</a>
 
 **Python Parallel and Concurrent Programming Part 1**  
 *Issued: Dec 2024*  
 Issued by: LinkedIn  
 Skills: Python, Concurrent Programming, Parallel Computing  
-[Show Credential]([https://www.linkedin.com/learning/certificates/d04deca19b34b8709f2291bfed855a3ecaebfac9e1c87008b750310625c22705?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRsWkoIG7SS6qv95flQObQQ%3D%3D])
+<a href="https://www.linkedin.com/learning/certificates/d04deca19b34b8709f2291bfed855a3ecaebfac9e1c87008b750310625c22705" target="_blank">Show Credential</a>
 
 **Practical GitHub Actions**  
 *Issued: Nov 2023*  
 Issued by: LinkedIn  
 Skills: GitHub  
-[Show Credential]([https://www.linkedin.com/learning/certificates/212afbb66f923b27c85cc4fb214022fd5d1c1d1415632e390b21e5f71aface2f?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRsWkoIG7SS6qv95flQObQQ%3D%3D])
+<a href="https://www.linkedin.com/learning/certificates/212afbb66f923b27c85cc4fb214022fd5d1c1d1415632e390b21e5f71aface2f" target="_blank">Show Credential</a>
 
 **Practical GitHub Code Search**  
 *Issued: Nov 2023*  
 Issued by: LinkedIn  
 Skills: GitHub  
-[Show Credential]([https://www.linkedin.com/learning/certificates/5dfac62a378373b6fd261c8d7df64c95449f240372cb8c5a87cc65fc51e0f9ae?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRsWkoIG7SS6qv95flQObQQ%3D%3D])
+<a href="https://www.linkedin.com/learning/certificates/5dfac62a378373b6fd261c8d7df64c95449f240372cb8c5a87cc65fc51e0f9ae" target="_blank">Show Credential</a>
 
 **Practical GitHub Copilot**  
 *Issued: Nov 2023*  
 Issued by: LinkedIn  
 Skills: GitHub Copilot  
-[Show Credential]([https://www.linkedin.com/learning/certificates/a10f461959fe3efc5fce0e9b9f9bc8fbb913fcf106db1c44ae64efad1b07f805?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRsWkoIG7SS6qv95flQObQQ%3D%3D])
+<a href="https://www.linkedin.com/learning/certificates/a10f461959fe3efc5fce0e9b9f9bc8fbb913fcf106db1c44ae64efad1b07f805" target="_blank">Show Credential</a>
 
 **Practical GitHub Project Management and Collaboration**  
 *Issued: Nov 2023*  
 Issued by: LinkedIn  
 Skills: GitHub, Project Management  
-[Show Credential]([https://www.linkedin.com/learning/certificates/1c2dc7ed5f811e4faff27dfaf39e55174286c9d6fdcb66a34c8c165d67ffcfba?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRsWkoIG7SS6qv95flQObQQ%3D%3D])
+<a href="https://www.linkedin.com/learning/certificates/1c2dc7ed5f811e4faff27dfaf39e55174286c9d6fdcb66a34c8c165d67ffcfba" target="_blank">Show Credential</a>
 
 **Career Essentials in Software Development by Microsoft and LinkedIn**  
 *Issued: Oct 2023*  
 Issued by: Microsoft  
 Skills: Software Development, Programming  
-[Show Credential]([https://www.linkedin.com/learning/certificates/e95d35618fc2869cdbe955bd231ee8814da2aa71b6330b3d5dbf1d3d7bc7f285?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BRsWkoIG7SS6qv95flQObQQ%3D%3D])
+<a href="https://www.linkedin.com/learning/certificates/e95d35618fc2869cdbe955bd231ee8814da2aa71b6330b3d5dbf1d3d7bc7f285" target="_blank">Show Credential</a>
 
 **Basic Python Programming for Business**  
 *Issued: Jul 2023*  
 Issued by: Arizona State University  
 Skills: Business Analysis, Python  
-[Show Credential]([https://drive.google.com/file/d/1dPuXyEDMi9ZUUfSHw4-sh-XxG6jq6LQF/view?usp=sharing])
+<a href="https://drive.google.com/file/d/1dPuXyEDMi9ZUUfSHw4-sh-XxG6jq6LQF/view?usp=sharing" target="_blank">Show Credential</a>
 
 ---
 
@@ -123,55 +123,55 @@ Skills: Business Analysis, Python
 *Issued: Nov 2024*  
 Issued by: Amazon Web Services (AWS)  
 Skills: Cloud Operations  
-[Show Credential]([https://www.credly.com/badges/b95e8499-0bf8-4fe5-8b44-6ba3088f67dd/linked_in_profile])
+<a href="https://www.credly.com/badges/b95e8499-0bf8-4fe5-8b44-6ba3088f67dd/linked_in_profile" target="_blank">Show Credential</a>
 
 **AWS Educate: Getting Started with Compute**  
 *Issued: Nov 2024*  
 Issued by: Amazon Web Services (AWS)  
-[Show Credential]([https://www.credly.com/badges/43eaeeb6-0eb5-4835-8133-9e328a8b46b0/linked_in_profile])
+<a href="https://www.credly.com/badges/43eaeeb6-0eb5-4835-8133-9e328a8b46b0/linked_in_profile" target="_blank">Show Credential</a>
 
 **AWS Educate: Getting Started with Databases**  
 *Issued: Nov 2024*  
 Issued by: Amazon Web Services (AWS)  
-[Show Credential]([https://www.credly.com/badges/db940bb7-931b-490c-98de-03d91e54b5fe/linked_in_profile])
+<a href="https://www.credly.com/badges/db940bb7-931b-490c-98de-03d91e54b5fe/linked_in_profile" target="_blank">Show Credential</a>
 
 **AWS Educate: Getting Started with Networking**  
 *Issued: Nov 2024*  
 Issued by: Amazon Web Services (AWS)  
-[Show Credential]([https://www.credly.com/badges/095a7be8-ad6b-4083-a079-cb6897ed2cf3/linked_in_profile])
+<a href="https://www.credly.com/badges/095a7be8-ad6b-4083-a079-cb6897ed2cf3/linked_in_profile" target="_blank">Show Credential</a>
 
 **AWS Educate: Getting Started with Security**  
 *Issued: Nov 2024*  
 Issued by: Amazon Web Services (AWS)  
-[Show Credential]([https://www.credly.com/badges/3ac2f8f6-9d42-4ecc-a8c9-b6716da3ec46/linked_in_profile])
+<a href="https://www.credly.com/badges/3ac2f8f6-9d42-4ecc-a8c9-b6716da3ec46/linked_in_profile" target="_blank">Show Credential</a>
 
 **AWS Educate: Getting Started with Serverless**  
 *Issued: Nov 2024*  
 Issued by: Amazon Web Services (AWS)  
-[Show Credential]([https://www.credly.com/badges/ea996072-47db-4f63-b048-554833ec7771/linked_in_profile])
+<a href="https://www.credly.com/badges/ea996072-47db-4f63-b048-554833ec7771/linked_in_profile" target="_blank">Show Credential</a>
 
 **AWS Educate: Getting Started with Storage**  
 *Issued: Nov 2024*  
 Issued by: Amazon Web Services (AWS)  
-[Show Credential]([https://www.credly.com/badges/a0204007-a097-4159-b695-64d4cd4f2e54/linked_in_profile])
+<a href="https://www.credly.com/badges/a0204007-a097-4159-b695-64d4cd4f2e54/linked_in_profile" target="_blank">Show Credential</a>
 
 **M112: MongoDB Diagnostic Thinking**  
 *Issued: Nov 2022*  
 Issued by: MongoDB  
 Skills: MongoDB  
-[Show Credential]([https://learn.mongodb.com/c/XeHGngo3Rm-8jbhX6y1tiw])
+<a href="https://learn.mongodb.com/c/XeHGngo3Rm-8jbhX6y1tiw" target="_blank">Show Credential</a>
 
 **Advance Python Packages for Business Analytics ASU**  
 *Issued: Jun 2024*  
 Issued by: Arizona State University  
 Skills: Business Analysis, IT Business Analysis, Pandas, NumPy, Machine Learning, Data Visualization  
-[Download Certificate]([https://drive.google.com/file/d/1C_Tmts2uwiPoTbzj8Qbv2YCHqMI5WPLb/view?usp=sharing&usp=embed_facebook])
+<a href="https://drive.google.com/file/d/1C_Tmts2uwiPoTbzj8Qbv2YCHqMI5WPLb/view?usp=sharing" target="_blank">Download Certificate</a>
 
 **Understanding Data Course ASU**  
 *Issued: Jun 2024*  
 Issued by: Arizona State University  
 Skills: Data Analysis  
-[Show Credential](https://drive.google.com/file/d/1EW7EE4SlCFv8DL2_hrv6piiqLq5hOZvu/view?usp=sharing)
+<a href="https://drive.google.com/file/d/1EW7EE4SlCFv8DL2_hrv6piiqLq5hOZvu/view?usp=sharing" target="_blank">Show Credential</a>
 
 ---
 
