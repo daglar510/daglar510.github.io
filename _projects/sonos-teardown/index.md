@@ -2,7 +2,9 @@
 layout: page
 title: Certifications
 description: A collection of my professional certifications and training courses, demonstrating expertise across software development, cloud & data analytics, engineering tools, and professional/business skills.
-main-image: /certificates-banner.png
+### Embeed images
+{% include image-gallery.html images="certificates-banner.png" height="400" %} 
+place the images in project folder/images then update the file path. 
 permalink: /certifications/
 ---
 
