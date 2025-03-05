@@ -173,6 +173,11 @@ Issued by: Arizona State University
 Skills: Data Analysis  
 <a href="https://drive.google.com/file/d/1EW7EE4SlCFv8DL2_hrv6piiqLq5hOZvu/view?usp=sharing" target="_blank">Show Credential</a>
 
+**HCIP-AI-EI Developer V2.0 Course**  
+*Issued: Oct 2023*  
+Issued by: Huawei  
+<a href="https://drive.google.com/file/d/1o27t2IAmBtZEnvVcl7i5d7aJkYFQx_P5/view?usp=sharing" target="_blank">Show Credential</a>
+
 ---
 
 ## Group 3: Engineering, Technical Tools & Automation Certifications
@@ -181,80 +186,80 @@ Skills: Data Analysis
 *Issued: Nov 2024*  
 Issued by: IBM  
 Skills: Cybersecurity  
-[Download Certificate](https://link_to_pdf/Cybersecurity_Fundamentals_Badge20241127-27-za9csd.pdf)
+<a href="https://www.credly.com/badges/b42f7bf6-2f24-4fc2-a528-2b1e0179867c/linked_in_profile" target="_blank">Show Credential</a>
 
 **Explore Emerging Tech**  
 *Issued: Nov 2024*  
 Issued by: IBM  
-[Show Credential](https://www.ibm.com/learning/courses/explore-emerging-tech)
+<a href="https://www.credly.com/badges/bc8e9dcf-0774-470a-91fd-55c56f9107a9/linked_in_profile" target="_blank">Show Credential</a>
 
 **Working in a Digital World: Professional Skills**  
 *Issued: Nov 2024*  
 Issued by: IBM  
-[Show Credential](https://www.ibm.com/learning/courses/working-in-a-digital-world)
+<a href="https://www.credly.com/badges/b67b2d61-6e9b-4ddb-8e31-8ad26a41b494/linked_in_profile" target="_blank">Show Credential</a>
 
 **IBM ile Kodluyoruz: CyberStart**  
 *Issued: Dec 2024*  
 Issued by: Kodluyoruz  
 Credential ID: 56851972550516  
-[Show Credential](https://www.linkedin.com/learning/courses/ibm-ile-kodluyoruz-cyberstart)
+<a href="https://verified.sertifier.com/tr/verify/56851972550516/" target="_blank">Show Credential</a>
 
 **Microcontrollers with Arduino 3**  
 *Issued: Mar 2024*  
 Issued by: Orta Doğu Teknik Üniversitesi  
 Credential ID: 294b74c0-eace-11ee-8299-2f7354ae9e17  
 Skills: Arduino, Microcontrollers  
-[Download Certificate](https://link_to_pdf/Arduino_ile_Mikrodenetleyiciler_3_(Sensorden_Veri_Okuma)-Sertifika_394867.pdf)
+<a href="https://bilgeis.net/moodle/mod/simplecertificate/verify.php?code=294b74c0-eace-11ee-8299-2f7354ae9e17" target="_blank">Show Credential</a>
 
 **Raspberry Pi Advanced Level**  
 *Issued: Mar 2024*  
 Issued by: Orta Doğu Teknik Üniversitesi  
 Credential ID: 70496490-eadb-11ee-8b05-e921ce248bf7  
 Skills: Raspberry Pi, Linux  
-[Download Certificate](https://link_to_pdf/Raspberry_Pi_ile_İleri_Seviye-Sertifika_394880.pdf)
+<a href="https://bilgeis.net/moodle/mod/simplecertificate/verify.php?code=70496490-eadb-11ee-8b05-e921ce248bf7" target="_blank">Show Credential</a>
 
 **Debugging in Studio**  
 *Issued: Nov 2023*  
 Issued by: UiPath  
 Credential ID: 11262023092929390  
 Skills: Robotic Process Automation (RPA)  
-[Show Credential](https://www.uipath.com/learning/courses/debugging-in-studio)
+<a href="https://drive.google.com/file/d/163rqnNj444IfyFK-hzkE_wXOd6vwqUVm/view?usp=sharing" target="_blank">Show Credential</a>
 
 **Foundational MATLAB**  
 *Issued: Nov 2023*  
 Issued by: MathWorks  
-[Show Credential](https://www.mathworks.com/training/courses/foundational-matlab)
+<a href="https://www.credly.com/badges/c0c849d7-2cbe-49a1-93fe-79e67bede738/linked_in_profile" target="_blank">Show Credential</a>
 
 **Simulink Fundamentals**  
 *Issued: Nov 2023*  
 Issued by: MathWorks  
 Skills: MATLAB, Simulink  
-[Show Credential](https://www.mathworks.com/training/courses/simulink-fundamentals)
+<a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=8bd3c708-6d1d-450b-882e-a5b3befb2e89&" target="_blank">Show Credential</a>
 
 **UiPath RPA Developer FastStart**  
 *Issued: Nov 2023*  
 Issued by: UiPath  
 Credential ID: 11302023145856811  
 Skills: Robotic Process Automation (RPA), UiPath  
-[Show Credential](https://www.uipath.com/learning/courses/ui-path-rpa-developer-faststart)
+<a href="https://drive.google.com/file/d/1L_YMSQSbHm5zMLF-thCPvHT8esKS79C2/view?usp=sharing" target="_blank">Show Credential</a>
 
 **MATLAB Onramp**  
 *Issued: Oct 2023*  
 Issued by: MATLAB Coding  
 Skills: MATLAB  
-[Show Credential](https://www.mathworks.com/training/courses/matlab-onramp)
+<a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=267326c0-a755-4abb-adad-6c4d3cfaa9ee&" target="_blank">Show Credential</a>
 
 **Machine Learning Project Success Planning**  
 *Issued: Oct 2023*  
 Issued by: HPE AI  
 Credential ID: f2dg7sbigm7b  
 Skills: Project Planning  
-[Show Credential](https://www.hpe.com/learning/courses/machine-learning-project-success-planning)
+<a href="https://verify.skilljar.com/c/f2dg7sbigm7b" target="_blank">Show Credential</a>
 
 **Beamline for Schools Cern Competition**  
 *Issued: Mar 2020*  
 Issued by: Beamline for Schools (BL4S)  
-[Download Certificate](https://link_to_pdf/cern_beamline_competition.pdf)
+<a href="https://www.linkedin.com/in/daglarduman/details/certifications/1739042592209/single-media-viewer?type=DOCUMENT&profileId=ACoAACWAci0BonVwJ6WHL5pZPhgbHOa_ymTdPDY&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BcDvtoY2jRECDk%2BKUzYb0vw%3D%3D" target="_blank">Show Credential</a>
 
 ---
 
@@ -264,89 +269,84 @@ Issued by: Beamline for Schools (BL4S)
 *Issued: Feb 2025*  
 Credential ID: TR-IHA0H12003385  
 Skills: Drone Piloting, Unmanned Aerial Vehicle (UAV)  
-[Download Certificate](https://link_to_pdf/Pilot%20Card%20IHA-0.pdf)
+<a href="https://www.linkedin.com/in/daglarduman/details/certifications/1740753965681/single-media-viewer?type=DOCUMENT&profileId=ACoAACWAci0BonVwJ6WHL5pZPhgbHOa_ymTdPDY&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BcDvtoY2jRECDk%2BKUzYb0vw%3D%3D" target="_blank">Show Credential</a>
 
 **Yapay Zeka İle Dönüştürelim Katılım Belgesi**  
 *Issued: Feb 2025*  
 Issued by: Kodluyoruz  
 Credential ID: 07328994234280  
-[Show Credential](https://www.linkedin.com/learning/courses/yapay-zeka-ile-donusturelim)
+<a href="https://verified.sertifier.com/en/verify/07328994234280/" target="_blank">Show Credential</a>
 
 **Automotive Summer Camp**  
 *Issued: Jul 2024*  
 Issued by: OSD - Otomotiv Sanayii Derneği  
 Credential ID: OSDB00457B0  
-[Show Credential](https://www.osd.org.tr/en/certificates)
+<a href="https://dogrulama.ogrencikariyeri.com/images/documents/OSDB00457B0.jpg" target="_blank">Show Credential</a>
 
 **Principles Programming Language ASU**  
 *Issued: Jun 2024*  
 Issued by: Arizona State University  
 Skills: Syntax, Algorithms, Compiler Construction  
-[Download Certificate](https://link_to_pdf/Principles_Programming_Language_ASU.pdf)
+<a href="https://drive.google.com/file/d/19KLXYmIyy5VxX6tSafJA_iauYRL-O93O/view?usp=sharing&usp=embed_facebook" target="_blank">Show Credential</a>
 
 **Seninle İyi Gelecek Etkinliği Katılım Belgesi**  
 *Issued: May 2024*  
 Issued by: Youthall  
 Credential ID: 33941495020193  
 Skills: Startup Development, Startups  
-[Show Credential](https://www.youthall.com/certificates)
+<a href="https://verified.sertifier.com/en/verify/33941495020193/" target="_blank">Show Credential</a>
 
 **Linux Certificate**  
 *Issued: Apr 2024*  
 Issued by: Chegg Inc.  
 Skills: Linux  
-[Download Certificate](https://link_to_pdf/Linux_certificate_Chegg.png)
+<a href="https://www.linkedin.com/in/daglarduman/details/certifications/1722512536666/single-media-viewer?type=IMAGE&profileId=ACoAACWAci0BonVwJ6WHL5pZPhgbHOa_ymTdPDY&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BTlNtlHZVSECtGTrSUsmK0A%3D%3D" target="_blank">Show Credential</a>
 
 **HP Life Certified for 3D Printing**  
 *Issued: Sep 2023*  
 Issued by: HP LIFE  
 Credential ID: HPL-EN29  
 Skills: 3D Printing  
-[Show Credential](https://www.hplife.com/learning/courses/hp-life-certified-for-3d-printing)
+<a href="https://www.life-global.org/certificate/1ab11aa5-f12f-4eb1-a646-861e1ee2561c" target="_blank">Show Credential</a>
 
 **HP Life Certified for Creating Effective Business Websites**  
 *Issued: Sep 2023*  
 Issued by: HP LIFE  
 Credential ID: HPL-EN17  
 Skills: Business Analysis  
-[Show Credential](https://www.hplife.com/learning/courses/hp-life-certified-for-creating-effective-business-websites)
+<a href="https://www.life-global.org/certificate/1abf9665-d94f-44b7-9bc5-d4e7f3803b62" target="_blank">Show Credential</a>
 
 **HP Life Certified for IT for Business Success**  
 *Issued: Sep 2023*  
 Issued by: HP LIFE  
 Credential ID: HPL-EN24  
 Skills: Business Analysis, Project Management  
-[Show Credential](https://www.hplife.com/learning/courses/hp-life-certified-for-it-for-business-success)
+<a href="https://www.life-global.org/certificate/97bd00db-5781-4c20-addb-7518914709b9" target="_blank">Show Credential</a>
 
 **HP Life Certified Social Media Marketing**  
 *Issued: Dec 2022*  
 Issued by: HP LIFE  
 Credential ID: HPL-EN02  
 Skills: Business Analysis  
-[Show Credential](https://www.hplife.com/learning/courses/hp-life-certified-social-media-marketing)
+<a href="https://www.life-global.org/certificate/9d86e80a-a720-4650-b5ee-1a7a73dcd97f" target="_blank">Show Credential</a>
 
 **HP Life Certified for Presenting Data**  
 *Issued: Dec 2022*  
 Issued by: HP LIFE  
 Credential ID: HPL-EN14  
 Skills: Business Analysis, Data Analysis, Software Documentation  
-[Show Credential](https://www.hplife.com/learning/courses/hp-life-certified-for-presenting-data)
+<a href="https://www.life-global.org/certificate/60d38ace-271f-4580-b3ae-ec5b30d43764" target="_blank">Show Credential</a>
 
 **ESP Skills Pass Certificate**  
 Issued by: Entrepreneurial Skills Pass (ESP)  
 Credential ID: ESP34000249  
-[Show Credential](https://www.esp.org/learning/courses/esp-skills-pass)
-
-**HCIP-AI-EI Developer V2.0 Course**  
-*Issued: Oct 2023*  
-Issued by: Huawei  
-[Show Credential](https://www.huawei.com/learning/courses/hcip-ai-ei-developer-v2-0)
+<a href="https://drive.google.com/file/d/1aobTu844fHhedejuCLx1hW34RbNOwM9I/view?usp=sharing" target="_blank">Show Credential</a>
 
 **HCSA-Sales-IP Network V5.0 Certification**  
 *Issued: Oct 2023*  
 Issued by: Huawei  
 Skills: Business Analysis, Computer Hardware Troubleshooting, Hardware Support  
-[Show Credential](https://www.huawei.com/learning/courses/hcsa-sales-ip-network-v5-0)
+<a href="https://drive.google.com/file/d/1K-8eXAJ20MNaFR-NnKPjvtO36GysuMeW/view?usp=sharing" target="_blank">Show Credential</a>
 
 ---
 
