@@ -18,7 +18,7 @@ Below are my certifications, grouped into four categories for easier navigation.
 *Issued: Feb 2025*  
 Issued by: LinkedIn  
 Skills: Apache Airflow  
-[Show Credential](https://www.linkedin.com/learning/certificates/693c38e28bebeaefc50154850c9a3a7a53630b405e414e629088dcbdab5c1037?u=2075980)
+<a href="https://www.linkedin.com/learning/certificates/693c38e28bebeaefc50154850c9a3a7a53630b405e414e629088dcbdab5c1037?u=2075980" target="_blank">Show Credential</a>
 
 **Building a Personal Portfolio with Django**  
 *Issued: Jan 2025*  
