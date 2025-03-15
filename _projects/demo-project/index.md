@@ -32,6 +32,7 @@ This project involved the comprehensive design and development of a 13B Rotary E
 
 ## Project Media
 
+
 ### Images
 {% include image-gallery.html images="project1.png, 13bwankel.jpg" height="300" %}
 

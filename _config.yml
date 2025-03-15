@@ -13,13 +13,10 @@ title: Daglar Duman's Portfolio # This is what shows up in the tab of the browse
 
 # Hero Section
 name: Daglar Duman
-headline: Mechatronics Engineers
+headline: Mechatronics Engineer
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Hi, I’m Dağlar Duman, I’m a final-year Mechatronics Engineering student who loves blending hardware, software, and creativity. Over the past few years, I’ve worked on AI-powered defect detection, predictive maintenance with IoT sensors, and 3D printing projects. 
-  
-  I enjoy rolling up my sleeves to solve real problems—whether that’s fixing a faulty microcontroller, applying computer vision to improve a welding line, or automating an assembly process. Every challenge is an opportunity to innovate.
-  
-  Feel free to explore my projects or reach out if you’d like to collaborate!
+  4th grade Mechatronics student with strong programming skills and passion for robotics, 
+  seeking impactful opportunities in a dynamic team environment.
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/avatar.jpeg
@@ -49,95 +46,118 @@ external-links:    # input only your own url slug. The icons with missing entrie
 skills:
   - category: Programming Languages
     tools:
-    - Python
-    - JavaScript
-    - Java
-    - C++
-    - C#
-    - C
-    - Kotlin
-    - SQL
-    - Lua
+      - Python
+      - JavaScript
+      - Java
+      - C++
+      - C#
+      - C
+      - Kotlin
+      - SQL
+      - Lua
 
   - category: Frameworks & Libraries
     tools:
-    - Django
-    - Flask
-    - NodeJS
-    - ExpressJS
-    - Apache Airflow
-    - Celery
-    - Pandas
-    - Unity
-    - Godot
+      - Django
+      - Flask
+      - NodeJS
+      - ExpressJS
+      - Apache Airflow
+      - Celery
+      - Pandas
+      - Unity
+      - Godot
+      - Elasticsearch
+      - Forms
+      - GitHub Copilot
 
   - category: Tools & Technologies
     tools:
-    - AWS
-    - Docker
-    - DataBricks
-    - ROS (Robot Operating System)
-    - Ansys
-    - MATLAB
-    - SolidWorks
-    - Fusion 360
-    - Eagle CAD
-    - Arduino
-    - Raspberry Pi
-    - MongoDB
-    - WooCommerce
-    - WordPress
-    - Jira
-    - Git
-    - GitHub
-    - FileZilla
-    - Stripe
-    - UiPath
+      - AWS
+      - Docker
+      - DataBricks
+      - ROS (Robot Operating System)
+      - Ansys
+      - MATLAB
+      - SolidWorks
+      - Fusion 360
+      - Eagle CAD
+      - Arduino
+      - Raspberry Pi
+      - MongoDB
+      - WooCommerce
+      - WordPress
+      - Jira
+      - Git
+      - GitHub
+      - FileZilla
+      - Stripe
+      - UiPath
+      - IT Automation
+      - Emerging Tech
+      - Serverless
+      - Storage
 
   - category: Hardware & Embedded Systems
     tools:
-    - PCB Design
-    - 3D Printing
-    - Sensor Integration (IMU, RGB Proximity Sensors, Vibration Sensors)
-    - Power Electronics
-    - Motor Control (Arduino Due Motor Shield)
-    - Microcontroller Programming (CH341)
-    - Mechatronic Diagnosis
-    - Soldering & Iron Stitching
+      - PCB Design
+      - 3D Printing
+      - Sensor Integration (IMU, RGB Proximity Sensors, Vibration Sensors)
+      - Power Electronics
+      - Motor Control (Arduino Due Motor Shield)
+      - Microcontroller Programming (CH341)
+      - Mechatronic Diagnosis
+      - Soldering & Iron Stitching
+      - Drone Piloting
+      - UAV
 
   - category: Data Science & Machine Learning
     tools:
-    - ETL Pipelines
-    - Data Analysis
-    - Machine Learning Model Deployment
-    - Predictive Maintenance
-    - Big Data Processing
-    - Workflow Automation
-    - SQL Optimization
-    - Condition Monitoring
+      - ETL Pipelines
+      - Data Analysis
+      - Machine Learning Model Deployment
+      - Predictive Maintenance
+      - Big Data Processing
+      - Workflow Automation
+      - SQL Optimization
+      - Condition Monitoring
+      - Data Visualization
+      - AI
 
   - category: Game Development
     tools:
-    - GameGuru Engine
-    - Unity Game Engine
-    - Blender
-    - Android Mobile Game Development
+      - GameGuru Engine
+      - Unity Game Engine
+      - Blender
+      - Android Mobile Game Development
 
   - category: Web Development & APIs
     tools:
-    - Back-end Development
-    - API Development
-    - Web Scraping
-    - Content Management Systems (WordPress/WooCommerce)
+      - Back-end Development
+      - API Development
+      - Web Scraping
+      - Content Management Systems (WordPress/WooCommerce)
 
   - category: Soft Skills
     tools:
-    - Team Leadership (Head of Electrical & Mechanical Departments)
-    - Task Management
-    - Technical Documentation
-    - Workshop Facilitation (Arduino & Python Seminars)
-    - Problem-Solving
-    - Digital Transformation Initiatives
+      - Team Leadership (Head of Electrical & Mechanical Departments)
+      - Task Management
+      - Technical Documentation
+      - Workshop Facilitation (Arduino & Python Seminars)
+      - Problem-Solving
+      - Digital Transformation Initiatives
+      - Project Management
+      - Startup Development
+      - Startups
+      - Entrepreneurship
+
+  - category: Programming Concepts
+    tools:
+      - Concurrent Programming
+      - Parallel Computing
+      - Syntax
+      - Algorithms
+      - Compiler Construction
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
