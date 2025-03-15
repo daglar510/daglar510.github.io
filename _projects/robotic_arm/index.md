@@ -22,8 +22,6 @@ date: 2022-12-01
 
 Mechatronics Engineering, Istanbul Bilgi University, 2022
 
----
-
 ## ABSTRACT
 
 Modern industry heavily relies on robots and mechanical systems to increase efficiency, yet smaller-scale projects can also bring convenience, education, or entertainment. Computers followed a similar path—from business applications to everyday home use. Today, resources for building small robotic projects are widely available. Our goal was to design and build a controllable, programmable robotic arm that illustrates these concepts on a smaller scale.
