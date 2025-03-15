@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <script src="/assets/js/script.js"></script>
+
+    
+    <title>Daglar Duman's Portfolio</title>
+    
+
+</head>
+<body>
+    <!-- NAVBAR -->
+     <!-- _includes/nav.html -->
+<nav>
+    <div class="left">
+        <a href="/">Daglar Duman</a>
+    </div>
+
+    <!-- Desktop Menu -->
+    <div class="right desktop-nav">
+        <a href="/">
+            <span>Home</span>
+        </a>
+        <a href="/projects/">
+            <span>Projects</span>
+        </a>
+        <a href="/certifications/">
+            <span>Certifications</span>
+        </a>
+        <a href="https://docs.google.com/document/d/1uSct3CwAka_CdZswH5vLNbyl_lTAnzgpTxEOklQBOfs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <span>Resume</span>
+        </a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button class="menu-toggle" aria-label="Toggle menu">
+        <i class="fa fa-bars fa-2x"></i>
+    </button>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-nav">
+        <a href="/">
+            <span>Home</span>
+        </a>
+        <a href="/projects/">
+            <span>Projects</span>
+        </a>
+        <a href="/certifications/">
+            <span>Certifications</span>
+        </a>
+        <a href="https://docs.google.com/document/d/1uSct3CwAka_CdZswH5vLNbyl_lTAnzgpTxEOklQBOfs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <span>Resume</span>
+        </a>
+    </div>
+</nav>
+
+     <div class="page"><div class="post-view">
+    <div class="summary">
+        
+       
+        
+               
+        <img src="/_projects/robotic_arm/Picture5.png" alt="Simple Programmable Robotic Arm image">
+        
+        <div class="title-header">
+            <h1>Simple Programmable Robotic Arm</h1>
+        </div>
+        
+        <div class="project-description">
+            <h2>Project Overview</h2>
+            <p>This project, completed in 2022 at Istanbul Bilgi University, demonstrates how to build a simple, programmable robotic arm using Arduino, micro servo motors, and 3D-printed components. By blending mechanical design, electronics, and programming, we created a functional arm that can move in multiple axes. </p>
+        </div>
+        <div class="skills-card">
+            <h2>Skills Used</h2> 
+            <div class="skills-list">
+                
+                <span class="skill">Arduino Programming</span>    
+                
+                <span class="skill">Micro Servo Control</span>    
+                
+                <span class="skill">Mechanical Design</span>    
+                
+                <span class="skill">3D Printing</span>    
+                
+                <span class="skill">Circuit Integration</span>    
+                
+                <span class="skill">CAD Modeling</span>    
+                
+                <span class="skill">Technical Drawing</span>    
+                
+                <span class="skill">Problem-Solving</span>    
+                
+            </div>
+        </div>
+    </div>
+      
+    <div class="content">
+        <h1 id="simple-programmable-robotic-arm">SIMPLE PROGRAMMABLE ROBOTIC ARM</h1>
+
+<p><strong>By</strong></p>
+<ul>
+  <li>Dağlar Duman</li>
+  <li>Berat Hündürel</li>
+  <li>Kadir Ertuğrul Başak</li>
+  <li>Deniz Dönmez</li>
+</ul>
+
+<p>Mechatronics Engineering, Istanbul Bilgi University, 2022</p>
+
+<hr />
+
+<h2 id="abstract">ABSTRACT</h2>
+
+<p>Modern industry heavily relies on robots and mechanical systems to increase efficiency, yet smaller-scale projects can also bring convenience, education, or entertainment. Computers followed a similar path—from business applications to everyday home use. Today, resources for building small robotic projects are widely available. Our goal was to design and build a controllable, programmable robotic arm that illustrates these concepts on a smaller scale.</p>
+
+<hr />
+
+<h2 id="introduction">INTRODUCTION</h2>
+
+<p>To create a <strong>programmable robotic arm</strong>, we first needed foundational knowledge in <strong>programming</strong>, <strong>motors</strong>, and <strong>Arduino</strong>:</p>
+
+<ul>
+  <li><strong>Programming</strong>: The instructions (“brain”) that tells the robot what to do.</li>
+  <li><strong>Motors</strong>: We used <strong>micro servo sg90 motors</strong>, which allow precise control of position, velocity, and torque—ideal for a small robotic arm.</li>
+  <li><strong>Arduino</strong>: An accessible microcontroller platform. According to Arduino’s own description, it enables people to easily access advanced technologies that interact with the physical world.</li>
+</ul>
+
+<p>By combining these elements, we aimed to demonstrate a simplified example of how more complex industrial robotic arms function.</p>
+
+<hr />
+
+<h2 id="methodology">METHODOLOGY</h2>
+
+<h4 id="1-project-planning--research">1. Project Planning &amp; Research</h4>
+<p>We began by browsing project forums (like Hackster.io) and discussing ideas that balanced <strong>complexity</strong> and <strong>feasibility</strong> for a first university project. We ultimately chose a <strong>programmable robotic arm</strong> because it would be both instructive and fun to build.</p>
+
+<h4 id="2-motor-selection">2. Motor Selection</h4>
+<p>We needed motors that could precisely control position in three axes:</p>
+<ol>
+  <li><strong>Affordability</strong></li>
+  <li><strong>Availability</strong></li>
+  <li><strong>Suitability</strong> for a small robotic arm</li>
+</ol>
+
+<p>After researching, we chose <strong>micro servo sg90 motors</strong>.</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/robotic_arm//Picture1.png" alt="Picture1.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/robotic_arm//Picture18.png" alt="Picture18.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p><small><em>(Left) A set of micro servo sg90 motors. (Right) Close-up of a single Tower Pro SG90 servo.</em></small></p>
+
+<h4 id="3-arduino-basics">3. Arduino Basics</h4>
+<p>Although our Arduino experience was limited, we leveraged <strong>school lessons</strong>, <strong>online forums</strong>, and <strong>YouTube</strong> tutorials to gain confidence. Arduino’s large community and ready-to-use libraries made the learning curve more manageable.</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/robotic_arm//Picture17.png" alt="Picture17.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p><small><em>(An Arduino Uno, the microcontroller we used for controlling servos.)</em></small></p>
+
+<h4 id="4-circuit-diagram">4. Circuit Diagram</h4>
+<p>Below is the wiring setup, showing how servos connect to Arduino PWM pins and how potentiometers (or a joystick) provide analog input for controlling the arm:</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/robotic_arm//Picture2.png" alt="Picture2.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p><small><em>(Circuit diagram with four servos and four potentiometers wired to the Arduino.)</em></small></p>
+
+<h4 id="5-robotic-arm-structure">5. Robotic Arm Structure</h4>
+
+<h3 id="51-cardboard-vs-3d-printing">5.1 Cardboard vs. 3D Printing</h3>
+<p>We considered <strong>cardboard</strong> (simple but fragile) and <strong>3D printing</strong> (sturdier and more precise). Ultimately, we chose <strong>3D printing</strong> for durability and accuracy.</p>
+
+<div class="image-gallery" style="--gallery-height: 250px;">
+  
+      
+      
+          
+          <img src="/projects/robotic_arm//Picture3.png" alt="Picture3.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/robotic_arm//Picture4.png" alt="Picture4.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p><small><em>(Left) Layout of the parts on a 300×200mm sheet. (Right) All acrylic/3D-printed pieces cut and ready for assembly.</em></small></p>
+
+<h3 id="52-schema--example">5.2 Schema &amp; Example</h3>
+<p>Below is a schematic layout of the arm components, plus an example of how it looks when fully assembled:</p>
+
+<div class="image-gallery" style="--gallery-height: 250px;">
+  
+      
+      
+          
+          <img src="/projects/robotic_arm//Picture6.png" alt="Picture6.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/robotic_arm//Picture5.png" alt="Picture5.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p><small><em>(Left) Various acrylic parts for the arm. (Right) Final assembled arm with servos.)</em></small></p>
+
+<h4 id="6-assembly-steps">6. Assembly Steps</h4>
+
+<h3 id="61-prepare-the-base">6.1 Prepare the Base</h3>
+<p>We started by gathering the base plate, servo, and hardware:</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/robotic_arm//Picture8.png" alt="Picture8.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p><small><em>Base pieces</em></small></p>
+
+<ol>
+  <li>Attach sticky feet (if included) to each corner of the base.</li>
+  <li>Insert screws into the base plate, half-tightening nuts to hold them in place.</li>
+</ol>
+
+<h3 id="62-add-the-square">6.2 Add the Square</h3>
+<p>Next, we added the raised square platform on top of the base, using standoffs:</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/robotic_arm//Picture7.png" alt="Picture7.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/robotic_arm//Picture9.png" alt="Picture9.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p><small><em>(Left) Standoffs partially installed. (Right) Servo fitted into the top square plate.</em></small></p>
+
+<ol>
+  <li>Align the square plate’s holes with the screws from the base.</li>
+  <li>Tighten screws until flush, ensuring a stable platform.</li>
+</ol>
+
+<h3 id="63-collar-the-servo">6.3 Collar the Servo</h3>
+<p>We found that adding collars to the servos was the best way to secure them:</p>
+
+<ol>
+  <li>Thread the servo wire through the collar.</li>
+  <li>Line up the collar’s cutout with the servo’s wire attachment point.</li>
+  <li>Press until it’s flush with the servo flange.</li>
+</ol>
+
+<p><em>(See “Prepare the Base” images for reference.)</em></p>
+
+<h3 id="64-build-your-first-levers">6.4 Build Your First Levers</h3>
+<p>We then attached the servo horns to lever parts:</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/robotic_arm//Picture12.png" alt="Picture12.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p><small><em>(An acrylic lever piece with a pivot screw.)</em></small></p>
+
+<ol>
+  <li>Use the long servo screw to attach the white plastic horn to the lever.</li>
+  <li>Connect the long lever piece, ensuring minimal friction.</li>
+</ol>
+
+<h3 id="65-bringing-the-parts-together">6.5 Bringing the Parts Together</h3>
+<p>This step involved assembling the side frames and inserting the “pig” piece:</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/robotic_arm//Picture13.png" alt="Picture13.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/robotic_arm//Picture14.png" alt="Picture14.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p><small><em>(Left) Side pieces partially assembled. (Right) Close-up of the central base with side attachments.)</em></small></p>
+
+<ol>
+  <li>Loosely attach the end cradle pieces with 12mm screws.</li>
+  <li>Insert the “pig” between the cutouts, tightening screws gently so everything fits.</li>
+</ol>
+
+<h3 id="66-the-claw--jaws">6.6 The Claw &amp; Jaws</h3>
+<p>Finally, we built and attached the claw:</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/robotic_arm//Picture15.png" alt="Picture15.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/robotic_arm//Picture16.png" alt="Picture16.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p><small><em>(Left) Claw parts and gears laid out. (Right) A servo with an attached gear.)</em></small></p>
+
+<ol>
+  <li>Assemble the claw mechanism with gears.</li>
+  <li>Attach it to the arm’s wrist using 8mm and 10mm screws.</li>
+</ol>
+
+<hr />
+
+<h2 id="results-and-discussion">RESULTS AND DISCUSSION</h2>
+
+<ul>
+  <li><strong>Arduino &amp; Servo Control</strong>: We used four <strong>micro servo sg90 motors</strong> to control the arm’s joints. Thanks to Arduino’s straightforward libraries, programming was simpler than expected.</li>
+  <li><strong>Mechanical Assembly</strong>: The 3D-printed parts proved more robust than cardboard, though we had to be careful with screw tightening to maintain smooth motion.</li>
+  <li><strong>Challenges</strong>:
+    <ul>
+      <li>Over-tightening certain screws limited movement.</li>
+      <li>One servo motor failed, requiring replacement and reassembly.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Overall, the project successfully demonstrated basic robotic arm motion in multiple axes, suitable for educational demonstrations or light tasks.</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/robotic_arm//Picture18.png" alt="Picture18.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/robotic_arm//Picture19.png" alt="Picture19.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+<p><small><em>((Left) Micro servo SG90. (Right) Servo datasheet excerpt.)</em></small></p>
+
+<hr />
+
+<h2 id="conclusion">CONCLUSION</h2>
+
+<p>This <strong>Simple Programmable Robotic Arm</strong> showcases a practical introduction to robotics, blending mechanical design, electronics, and coding. While industrial arms are far more complex, our small-scale version demonstrates the core principles of position control, torque management, and collaborative design. With stronger materials and more advanced programming, the arm could handle heavier loads or perform more intricate tasks.</p>
+
+<hr />
+
+<h2 id="appendix-arduino-code">APPENDIX: ARDUINO CODE</h2>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;Servo.h&gt;</span><span class="cp">
+</span>
+<span class="n">Servo</span> <span class="n">servo1</span><span class="p">;</span>
+<span class="n">Servo</span> <span class="n">servo2</span><span class="p">;</span>
+<span class="n">Servo</span> <span class="n">servo3</span><span class="p">;</span>
+<span class="n">Servo</span> <span class="n">servo4</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="n">z_key</span> <span class="o">=</span> <span class="n">A3</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">s_key</span> <span class="o">=</span> <span class="n">A4</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">x_key</span> <span class="o">=</span> <span class="n">A1</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">y_key</span> <span class="o">=</span> <span class="n">A0</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">x_pos</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">y_pos</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">z_pos</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">s_pos</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">servo3_pin</span> <span class="o">=</span> <span class="mi">6</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">servo4_pin</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">servo1_pin</span> <span class="o">=</span> <span class="mi">11</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">servo2_pin</span> <span class="o">=</span> <span class="mi">9</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">initial_position</span> <span class="o">=</span> <span class="mi">90</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">initial_position1</span> <span class="o">=</span> <span class="mi">90</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">initial_position2</span> <span class="o">=</span> <span class="mi">90</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">initial_position3</span> <span class="o">=</span> <span class="mi">90</span><span class="p">;</span>
+
+<span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">Serial</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span>
+  <span class="n">servo1</span><span class="p">.</span><span class="n">attach</span><span class="p">(</span><span class="n">servo1_pin</span><span class="p">);</span>
+  <span class="n">servo2</span><span class="p">.</span><span class="n">attach</span><span class="p">(</span><span class="n">servo2_pin</span><span class="p">);</span>
+  <span class="n">servo3</span><span class="p">.</span><span class="n">attach</span><span class="p">(</span><span class="n">servo3_pin</span><span class="p">);</span>
+  <span class="n">servo4</span><span class="p">.</span><span class="n">attach</span><span class="p">(</span><span class="n">servo4_pin</span><span class="p">);</span>
+  <span class="n">servo1</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">initial_position</span><span class="p">);</span>
+  <span class="n">servo2</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">initial_position1</span><span class="p">);</span>
+  <span class="n">servo3</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">initial_position2</span><span class="p">);</span>
+  <span class="n">servo4</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">initial_position3</span><span class="p">);</span>
+  <span class="n">pinMode</span><span class="p">(</span><span class="n">x_key</span><span class="p">,</span> <span class="n">INPUT</span><span class="p">);</span>
+  <span class="n">pinMode</span><span class="p">(</span><span class="n">y_key</span><span class="p">,</span> <span class="n">INPUT</span><span class="p">);</span>
+  <span class="n">pinMode</span><span class="p">(</span><span class="n">z_key</span><span class="p">,</span> <span class="n">INPUT</span><span class="p">);</span>
+  <span class="n">pinMode</span><span class="p">(</span><span class="n">s_key</span><span class="p">,</span> <span class="n">INPUT</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="n">loop</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">x_pos</span> <span class="o">=</span> <span class="n">analogRead</span><span class="p">(</span><span class="n">x_key</span><span class="p">);</span>
+  <span class="n">y_pos</span> <span class="o">=</span> <span class="n">analogRead</span><span class="p">(</span><span class="n">y_key</span><span class="p">);</span>
+  <span class="n">z_pos</span> <span class="o">=</span> <span class="n">analogRead</span><span class="p">(</span><span class="n">z_key</span><span class="p">);</span>
+  <span class="n">s_pos</span> <span class="o">=</span> <span class="n">analogRead</span><span class="p">(</span><span class="n">s_key</span><span class="p">);</span>
+
+  <span class="c1">// Servo 1</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">x_pos</span> <span class="o">&lt;</span> <span class="mi">300</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">initial_position</span> <span class="o">&gt;=</span> <span class="mi">10</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">initial_position</span> <span class="o">-=</span> <span class="mi">20</span><span class="p">;</span>
+      <span class="n">servo1</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">initial_position</span><span class="p">);</span>
+      <span class="n">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">x_pos</span> <span class="o">&gt;</span> <span class="mi">700</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">initial_position</span> <span class="o">&lt;=</span> <span class="mi">180</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">initial_position</span> <span class="o">+=</span> <span class="mi">20</span><span class="p">;</span>
+      <span class="n">servo1</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">initial_position</span><span class="p">);</span>
+      <span class="n">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+
+  <span class="c1">// Servo 2</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">y_pos</span> <span class="o">&lt;</span> <span class="mi">300</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">initial_position1</span> <span class="o">&gt;=</span> <span class="mi">10</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">initial_position1</span> <span class="o">-=</span> <span class="mi">20</span><span class="p">;</span>
+      <span class="n">servo2</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">initial_position1</span><span class="p">);</span>
+      <span class="n">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">y_pos</span> <span class="o">&gt;</span> <span class="mi">700</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">initial_position1</span> <span class="o">&lt;=</span> <span class="mi">180</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">initial_position1</span> <span class="o">+=</span> <span class="mi">20</span><span class="p">;</span>
+      <span class="n">servo2</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">initial_position1</span><span class="p">);</span>
+      <span class="n">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+
+  <span class="c1">// Servo 3</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">z_pos</span> <span class="o">&lt;</span> <span class="mi">300</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">initial_position2</span> <span class="o">&gt;=</span> <span class="mi">10</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">initial_position2</span> <span class="o">-=</span> <span class="mi">20</span><span class="p">;</span>
+      <span class="n">servo3</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">initial_position2</span><span class="p">);</span>
+      <span class="n">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">z_pos</span> <span class="o">&gt;</span> <span class="mi">700</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">initial_position2</span> <span class="o">&lt;=</span> <span class="mi">180</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">initial_position2</span> <span class="o">+=</span> <span class="mi">20</span><span class="p">;</span>
+      <span class="n">servo3</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">initial_position2</span><span class="p">);</span>
+      <span class="n">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+
+  <span class="c1">// Servo 4</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">s_pos</span> <span class="o">&lt;</span> <span class="mi">300</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">initial_position3</span> <span class="o">&gt;=</span> <span class="mi">10</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">initial_position3</span> <span class="o">-=</span> <span class="mi">20</span><span class="p">;</span>
+      <span class="n">servo4</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">initial_position3</span><span class="p">);</span>
+      <span class="n">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">s_pos</span> <span class="o">&gt;</span> <span class="mi">700</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">initial_position3</span> <span class="o">&lt;=</span> <span class="mi">180</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">initial_position3</span> <span class="o">+=</span> <span class="mi">20</span><span class="p">;</span>
+      <span class="n">servo4</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">initial_position3</span><span class="p">);</span>
+      <span class="n">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+    </div>
+</div>
+
+</div>
+
+     
+</body>
+
+    <footer>
+    <div class="footer-content">
+        <div class="links">
+            <a href="/">
+                <span>Home</span>
+            </a>
+            <a href="/projects/">
+                <span>Projects</span>
+            </a>
+            <a href=https://docs.google.com/document/d/1uSct3CwAka_CdZswH5vLNbyl_lTAnzgpTxEOklQBOfs/edit?usp=sharing target="_blank" rel="noopener noreferrer">
+                <span>Resume</span>
+            </a>
+        </div>
+    </div>
+    <div class="license">
+        <span>For any question or suggestion for projects, reach out <a class="help" href="mailto:daglarduman510@gmai.com"> Here</a> </span>
+        <p>For More info here is my github <a href="https://github.com/daglar510">CCC</a></p>
+    </div>
+</footer>
+
+</html>

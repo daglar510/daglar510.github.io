@@ -1,114 +1,51 @@
 ---
 layout: post
-title: Super Heavy Booster Catch (Demo Only)
-description:  (I have never been employed by / affiliated with SpaceX. This is for demo use only) 
-    Developing the Super Heavy booster catch project involves designing a robust launch tower with "chopstick" arms, advanced control systems for precise booster alignment, and integrating sophisticated software for real-time trajectory adjustments and structural engineering to handle immense forces.
-skills: 
-  - Structural analysis
-  - Aerodynamic design
-  - Propulsion system integration
-  - Control Algorithem 
-  - Welding
-  - Metal forming
-  - Thermal simulation
-
-main-image: /project2.jpg
+title: "13B Rotary Engine Design (University Project)"
+description: >-
+  In January 2024, as part of my university project, I designed and engineered a 13B Rotary Engine.
+  The project involved designing and integrating core components—including the Rotor, Eccentric Shaft, Internal Gear,
+  Stationary Gear, Side Housing, and Rotor Housing—using SolidWorks CAD software.
+  I created detailed technical drawings and assembly blueprints to guide manufacturing and assembly processes, applying
+  mechanical engineering principles to enhance engine performance.
+  Collaborative efforts with a multidisciplinary team helped refine the design and address technical challenges.
+  This project showcased my proficiency in CAD modeling, technical documentation, and problem-solving.
+skills:
+  - SolidWorks
+  - CAD Modeling
+  - Technical Drawing
+  - Mechanical Engineering
+  - Problem-Solving
+main-image: /13bwankel.jpg
 ---
 
----
-# Header 1 
-Used for the title (already generated automatically at the top)
-## Header 2  
-Use this for the header of each section
-### Header 3 
-Use this to have subsection if needed
+## Project Description
+This project involved the comprehensive design and development of a 13B Rotary Engine. Key highlights include:
+- **Core Component Engineering**: Designed essential engine parts (Rotor, Eccentric Shaft, Internal Gear, Stationary Gear, Side Housing, and Rotor Housing) using SolidWorks CAD.
+- **Technical Documentation**: Created detailed technical drawings and assembly blueprints critical for manufacturing.
+- **Performance Optimization**: Applied mechanical engineering principles to enhance engine performance.
+- **Team Collaboration**: Worked with a multidisciplinary team to refine designs and overcome technical challenges.
+- **Key Skills Demonstrated**: CAD modeling, problem-solving, and technical documentation.
 
+**Technologies and Tools**: SolidWorks, CAD Modeling, Technical Drawing, Mechanical Engineering, Problem-Solving.
 
-## Embedding images 
-### External images
-{% include image-gallery.html images="https://live.staticflickr.com/65535/52821641477_d397e56bc4_k.jpg, https://live.staticflickr.com/65535/52822650673_f074b20d90_k.jpg" height="400"%}
-<span style="font-size: 10px">"Starship Test Flight Mission" from https://www.flickr.com/photos/spacex/52821641477/</span>  
-You can put in multiple entries. All images will be at a fixed height in the same row. With smaller window, they will switch to columns.  
+[View Project Files](https://drive.google.com/drive/folders/1xCkERdELjSo0nGAWD0pbxE4bYOPG0VFw?usp=sharing)
 
-### Embeed images
-{% include image-gallery.html images="project2.jpg" height="400" %} 
-place the images in project folder/images then update the file path.   
+## Project Media
 
+### Images
+{% include image-gallery.html images="project1.png, 13bwankel.jpg" height="300" %}
 
-## Embedding youtube video
-The second video has the autoplay on. copy and paste the 11-digit id found in the url link. <br>
-*Example* : https://www.youtube.com/watch?v={**MhVw-MHGv4s**}&ab_channel=engineerguy
-{% include youtube-video.html id="MhVw-MHGv4s" autoplay= "false"%}
-{% include youtube-video.html id="XGC31lmdS6s" autoplay = "true" %}
+<!-- 
+Template Note:
+- "13bwankel.jpg" is an image of the complete motor(renamed from project2.jpg).
+- "project1.png" is the technical drawing of the motor .
+-->
 
-you can also set up custom size by specifying the width (the aspect ratio has been set to 16/9). The default size is 560 pixels x 315 pixels.  
+### Video Presentation
+{% include youtube-video.html id="Ai3fqxs3fHg" autoplay="true" %}
 
-The width of the video below. Regardless of initial width, all the videos is responsive and will fit within the smaller screen.
-{% include youtube-video.html id="tGCdLEQzde0" autoplay = "false" width= "900px" %}  
-
-<br>
-
-## Adding a hozontal line
----
-
-## Starting a new line
-leave two spaces "  " at the end or enter <br>
-
-## Adding bold text
-this is how you input **bold text**
-
-## Adding italic text
-Italicized text is the *cat's meow*.
-
-## Adding ordered list
-1. First item
-2. Second item
-3. Third item
-4. Fourth item
-
-## Adding unordered list
-- First item
-- Second item
-- Third item
-- Fourth item
-
-## Adding code block
-```ruby
-def hello_world
-  puts "Hello, World!"
-end
-```
-
-```python
-def start()
-  print("time to start!")
-```
-
-```javascript
-let x = 1;
-if (x === 1) {
-  let x = 2;
-  console.log(x);
-}
-console.log(x);
-
-```
-
-## Adding external links
-[Wikipedia](https://en.wikipedia.org)
-
-
-## Adding block quote
-> A blockquote would look great if you need to highlight something
-
-
-## Adding table 
-
-| Header 1 | Header 2 |
-|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 |
-| Row 2, Col 1 | Row 2, Col 2 |
-
-make sure to leave aline betwen the table and the header
-
-
+<!-- 
+Template Note:
+- This embedded YouTube video could demonstrate the design process or final assembly.
+- "id" is the 11-character code from the YouTube URL.
+-->

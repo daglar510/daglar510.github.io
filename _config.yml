@@ -13,10 +13,13 @@ title: Daglar Duman's Portfolio # This is what shows up in the tab of the browse
 
 # Hero Section
 name: Daglar Duman
-headline: Mechatronics Engineer
+headline: Mechatronics Engineers
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  4th grade Mechatronics student with strong programming skills and passion for robotics, 
-  seeking impactful opportunities in a dynamic team environment.
+  Hi, I’m Dağlar Duman, I’m a final-year Mechatronics Engineering student who loves blending hardware, software, and creativity. Over the past few years, I’ve worked on AI-powered defect detection, predictive maintenance with IoT sensors, and 3D printing projects. 
+  
+  I enjoy rolling up my sleeves to solve real problems—whether that’s fixing a faulty microcontroller, applying computer vision to improve a welding line, or automating an assembly process. Every challenge is an opportunity to innovate.
+  
+  Feel free to explore my projects or reach out if you’d like to collaborate!
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/avatar.jpeg
