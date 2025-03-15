@@ -20,12 +20,6 @@ date: 2022-12-01
 
 # SIMPLE PROGRAMMABLE ROBOTIC ARM
 
-**By**  
-- Dağlar Duman
-- Berat Hündürel
-- Kadir Ertuğrul Başak  
-- Deniz Dönmez  
-
 Mechatronics Engineering, Istanbul Bilgi University, 2022
 
 ---
