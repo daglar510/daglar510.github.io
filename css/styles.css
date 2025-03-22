@@ -793,7 +793,7 @@ footer p {
         display: flex;
         align-items: center;
         justify-content: center;
-        min-height: 10px;
+        min-height: 50px;
     }
     .menu-toggle.active .hamburger {
         background: transparent;
