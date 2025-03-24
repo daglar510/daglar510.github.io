@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- 
+    Google Fonts and FontAwesome
+    Loads Poppins font and FontAwesome icon library.
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- 
+    Favicons & App Icons
+    The paths point to /assets/favicon/. 
+    Make sure these files exist in that folder.
+  -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
+  <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- 
+    Main CSS 
+    Links to your core styles (styles.css) and syntax highlighting (syntax.css).
+  -->
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+
+  <!-- 
+    Main JavaScript
+    For your site-wide JS (like mobile menu toggles).
+  -->
+  <script src="/assets/js/script.js"></script>
+  
+  <!-- 
+    Dynamically uses site.title from _config.yml for the browser tab
+  -->
+  <title>Daglar Duman's Portfolio</title>
+</head>
+<body>
+  <!-- 
+    Fixed Header Container
+    Wraps your navbar so it remains at the top of the page.
+  -->
+  <div class="fixed-header">
+    <!-- _includes/nav.html -->
+<nav>
+    <div class="left">
+        <a href="/">Daglar Duman</a>
+    </div>
+
+    <!-- Desktop Menu -->
+    <div class="right desktop-nav">
+        <a href="/">
+            <span>Home</span>
+        </a>
+        <a href="/projects/">
+            <span>Projects</span>
+        </a>
+        <a href="/certifications/">
+            <span>Certifications</span>
+        </a>
+        <a href="https://docs.google.com/document/d/1uSct3CwAka_CdZswH5vLNbyl_lTAnzgpTxEOklQBOfs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <span>Resume</span>
+        </a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button class="menu-toggle" aria-label="Toggle menu">
+        <i class="fa fa-bars fa-2x"></i>
+    </button>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-nav">
+        <a href="/">
+            <span>Home</span>
+        </a>
+        <a href="/projects/">
+            <span>Projects</span>
+        </a>
+        <a href="/certifications/">
+            <span>Certifications</span>
+        </a>
+        <a href="https://docs.google.com/document/d/1uSct3CwAka_CdZswH5vLNbyl_lTAnzgpTxEOklQBOfs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <span>Resume</span>
+        </a>
+    </div>
+</nav>
+  </div>
+
+  <!-- 
+    Main Page Content
+    Offset in styles.css with .page { margin-top: ... } if the navbar is fixed.
+  -->
+  <div class="page">
+    <div class="post-view">
+    <div class="summary">
+        
+       
+        
+               
+        <img src="/_projects/hyperloop/hyperloop-main.jpg" alt="Hyperloop Technical Design Report image">
+        
+        <div class="title-header">
+            <h1>Hyperloop Technical Design Report</h1>
+        </div>
+        
+        <div class="project-description">
+            <h2>Project Overview</h2>
+            <p>A comprehensive technical design report for our Hyperloop development competition project. This report details the capsule design, energy consumption, sensor integration, levitation and propulsion systems, braking mechanisms, aerodynamic analyses, safety features, and budget overview.</p>
+        </div>
+        <div class="skills-card">
+            <h2>Skills Used</h2> 
+            <div class="skills-list">
+                
+                <span class="skill">Hyperloop Design</span>    
+                
+                <span class="skill">Capsule Engineering</span>    
+                
+                <span class="skill">CAD Modeling</span>    
+                
+                <span class="skill">Mechanical Engineering</span>    
+                
+                <span class="skill">Sensor Integration</span>    
+                
+                <span class="skill">CFD Analysis</span>    
+                
+                <span class="skill">Aerodynamics</span>    
+                
+                <span class="skill">Energy Management</span>    
+                
+            </div>
+        </div>
+    </div>
+      
+    <div class="content">
+        <h2 id="project-overview">Project Overview</h2>
+
+<p>The <strong>Hyperloop Technical Design Report</strong> was submitted to the Teknofest Aviation, Space, and Technology Festival as part of our Hyperloop Geliştirme Yarışması project. This report documents the entire design process—from the initial capsule design to the detailed analyses of propulsion, levitation, braking, and thermal management systems. It also covers the integration of advanced sensors and communication networks to ensure safe and efficient operation.</p>
+
+<hr />
+
+<h2 id="1-capsule-design-analysis--production">1. Capsule Design, Analysis &amp; Production</h2>
+
+<h3 id="11-capsule-specifications">1.1 Capsule Specifications</h3>
+
+<ul>
+  <li><strong>Length:</strong> 1355 mm</li>
+  <li><strong>Width:</strong> 720 mm</li>
+  <li><strong>Height:</strong> 360 mm</li>
+  <li><strong>Approximate Weight:</strong> ~106 kg</li>
+  <li><strong>Materials:</strong>
+    <ul>
+      <li><strong>Chassis &amp; Shell:</strong> Carbon Steel, Steel, Carbon Fiber, and Epoxy Panels</li>
+      <li><strong>Brake Pads:</strong> Ceramic-Carbon (HRC 65)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="12-detailed-design-summary">1.2 Detailed Design Summary</h3>
+
+<p>Our design process focused on ensuring that all subsystems operate as an integrated whole. Key aspects include:</p>
+
+<ul>
+  <li><strong>Component Integration:</strong><br />
+The capsule design integrates multiple subsystems such as navigation, propulsion, levitation, braking, and cooling.</li>
+  <li><strong>CAD Modeling &amp; Technical Drawings:</strong><br />
+Detailed SolidWorks CAD models and technical drawings were created to guide manufacturing and assembly.</li>
+  <li><strong>Connection Mechanism:</strong><br />
+A hook-like connection device was designed to allow for emergency extraction if the capsule becomes immobilized.</li>
+</ul>
+
+<p><em>Example Diagram:</em></p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/_projects/hyperloop/capsule-design.png" alt="capsule-design.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<hr />
+
+<h2 id="2-power-consumption--energy-sources">2. Power Consumption &amp; Energy Sources</h2>
+
+<p>The capsule is powered exclusively by Lithium Polymer (Li-Po) batteries configured as follows:</p>
+
+<ul>
+  <li><strong>Propulsion:</strong>
+    <ul>
+      <li>4 × POWER-XTRA 22.2V 6S1P 5000 mAh (40C) cells in series yield approximately 88.8V.</li>
+      <li>With an estimated current draw of 106.4A, the propulsion system can operate for roughly 3 minutes under peak conditions.</li>
+    </ul>
+  </li>
+  <li><strong>Levitation:</strong>
+    <ul>
+      <li>3 × POWER-XTRA 11.1V 3S1P 2700 mAh (20C) cells in parallel provide an 11.1V 8100mAh pack, giving around 7 minutes of operation.</li>
+    </ul>
+  </li>
+  <li><strong>Auxiliary Systems:</strong>
+    <ul>
+      <li>A single POWER-XTRA 7.4V 2S1P 3300 mAh (55C) battery supports low-power electronic components.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="3-navigation-system--sensor-integration">3. Navigation System &amp; Sensor Integration</h2>
+
+<p>The navigation system employs multiple sensors to ensure precise control:</p>
+
+<ul>
+  <li><strong>10 DOF MEMS IMU Sensor:</strong><br />
+Measures acceleration, orientation, and gravitational forces.</li>
+  <li><strong>APDS-9960 RGB Sensor:</strong><br />
+Detects ambient light, color, and proximity.</li>
+  <li><strong>Additional Sensors:</strong><br />
+Includes US1881 Hall Effect sensors, SHT35 Temperature &amp; Humidity sensors, and a TF03 LiDAR sensor.</li>
+</ul>
+
+<p>These sensors provide real-time data to the control system, allowing the capsule to adjust its course and maintain stability.</p>
+
+<hr />
+
+<h2 id="4-levitation-system">4. Levitation System</h2>
+
+<p>Our levitation system is based on rotating Halbach arrays arranged in a quadrupolar configuration:</p>
+
+<ul>
+  <li><strong>Design:</strong><br />
+Four rotating Halbach arrays create a concentrated magnetic field that levitates the capsule.</li>
+  <li><strong>Calculations:</strong><br />
+Using Biot-Savart’s law, we determined that each array must produce a minimum force of approximately 260,715 N to achieve a 6 cm gap.</li>
+  <li><strong>Performance:</strong><br />
+At 1600 RPM (80 m/s), the system generates an estimated force of around 1410 N.</li>
+</ul>
+
+<p><em>Levitation Diagram(orange):</em></p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/_projects/hyperloop/levitation-system.png" alt="levitation-system.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<hr />
+
+<h2 id="5-propulsion--stability-system">5. Propulsion &amp; Stability System</h2>
+
+<h3 id="51-propulsion">5.1 Propulsion</h3>
+
+<p>A three-phase linear induction motor is used to propel the capsule:</p>
+<ul>
+  <li><strong>Operating Principle:</strong><br />
+The motor generates thrust via electromagnetic interaction, as described by the formula:<br />
+<strong>F = I × (L × B)</strong></li>
+  <li><strong>Performance:</strong><br />
+With a calculated force of 315 N and a target speed of 30 m/s, the propulsion system meets the design requirements.</li>
+  <li><strong>Power Consumption:</strong><br />
+The power requirement is estimated using <strong>P = F × V</strong>.</li>
+</ul>
+
+<h3 id="52-stability">5.2 Stability</h3>
+
+<p>To ensure the capsule remains stable:</p>
+<ul>
+  <li><strong>Braking System:</strong><br />
+A combination of magnetic and mechanical braking (using servo-actuated ceramic-carbon brake pads) is implemented.</li>
+  <li><strong>Wheel Assemblies:</strong><br />
+Additional wheels provide stability during low-levitation phases.</li>
+</ul>
+
+<hr />
+
+<h2 id="6-aerodynamic-thermal--vacuum-analyses">6. Aerodynamic, Thermal &amp; Vacuum Analyses</h2>
+
+<h3 id="61-aerodynamic-analysis">6.1 Aerodynamic Analysis</h3>
+
+<p>CFD simulations were performed using a k-Omega SST turbulence model at 100 km/h:</p>
+<ul>
+  <li><strong>Drag &amp; Lift Forces:</strong><br />
+Detailed analyses determined the drag and lift coefficients, which were used to optimize the capsule’s streamlined shape.</li>
+</ul>
+
+<h3 id="62-thermal-analysis">6.2 Thermal Analysis</h3>
+
+<p>A liquid cooling system maintains operational temperatures:</p>
+<ul>
+  <li><strong>Cooling Components:</strong><br />
+A radiator, DC water pump, tubing, and glycerin are used to dissipate heat.</li>
+  <li><strong>Heat Transfer:</strong><br />
+The system is designed to handle approximately 2140 Joules of heat, resulting in a temperature increase of around 6.2 °C for critical components.</li>
+</ul>
+
+<h3 id="63-vacuum-analysis">6.3 Vacuum Analysis</h3>
+
+<p>The design ensures stable operation under low-pressure conditions typical of Hyperloop systems.</p>
+
+<p><em>Simulation Images:</em></p>
+
+<div class="image-gallery" style="--gallery-height: 525px;">
+  
+      
+      
+          
+          <img src="/_projects/hyperloop/aerodynamic-analysis.png" alt="aerodynamic-analysis.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/_projects/hyperloop/thermal-analysis.png" alt="thermal-analysis.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<hr />
+
+<h2 id="7-safety-systems--emergency-procedures">7. Safety Systems &amp; Emergency Procedures</h2>
+
+<p>To safeguard the capsule during operation, several safety features are integrated:</p>
+
+<ul>
+  <li><strong>Emergency Braking:</strong><br />
+A secondary braking mechanism using servo-actuated ceramic-carbon brake pads.</li>
+  <li><strong>Liquid Cooling:</strong><br />
+Prevents overheating of vital components.</li>
+  <li><strong>Remote Shutdown:</strong><br />
+A control system enables remote deactivation in emergencies.</li>
+  <li><strong>Emergency Extraction:</strong><br />
+A hook-like connection device allows the capsule to be safely removed from the track in case of failure.</li>
+</ul>
+
+<hr />
+
+<h2 id="8-communication--control">8. Communication &amp; Control</h2>
+
+<p>The capsule’s control system ensures seamless communication between subsystems:</p>
+
+<ul>
+  <li><strong>Interconnectivity:</strong><br />
+Multiple microcontrollers (Arduino Mega, STM32, and Raspberry Pi) communicate via CAN Bus.</li>
+  <li><strong>Wireless Data Transmission:</strong><br />
+Sensor data is relayed via Wi-Fi to a remote control center.</li>
+  <li><strong>User Interface:</strong><br />
+Real-time monitoring displays parameters such as position, speed, acceleration, and temperature.</li>
+</ul>
+
+<hr />
+
+<h2 id="9-theoretical-maximum-speed--budget-analysis">9. Theoretical Maximum Speed &amp; Budget Analysis</h2>
+
+<h3 id="91-theoretical-speed">9.1 Theoretical Speed</h3>
+
+<p>Calculations based on the propulsion and levitation systems indicate that the capsule could achieve competitive speeds in a high-speed transit system.</p>
+
+<h3 id="92-budget-overview">9.2 Budget Overview</h3>
+
+<p>A detailed budget breakdown covers material costs, manufacturing expenses, and testing, ensuring the design remains financially viable.</p>
+
+<hr />
+
+<h2 id="appendix">Appendix</h2>
+
+<p>For a more detailed review, download the full technical report <a href="/assets/pdf/Hypersonic_teknik_tasarım_raporu_V2.pdf">here</a>.</p>
+
+<hr />
+
+    </div>
+</div>
+
+
+  </div>
+
+  <!-- 
+    Footer
+    Renders the shared footer across all pages.
+  -->
+  <footer>
+    <div class="footer-content">
+        <div class="links">
+            <a href="/">
+                <span>Home</span>
+            </a>
+            <a href="/projects/">
+                <span>Projects</span>
+            </a>
+            <a href="/certifications/">
+                <span>Certifications</span>
+            </a>
+            <a href=https://docs.google.com/document/d/1uSct3CwAka_CdZswH5vLNbyl_lTAnzgpTxEOklQBOfs/edit?usp=sharing target="_blank" rel="noopener noreferrer">
+                <span>Resume</span>
+            </a>
+        </div>
+    </div>
+    <div class="license">
+        <span>For any question or suggestion for projects, reach out <a class="help" href="mailto:daglarduman510@gmail.com"> Here</a> </span>
+        <p>For More info here is my github <a href="https://github.com/daglar510">CCC</a></p>
+    </div>
+</footer>
+
+</body>
+</html>

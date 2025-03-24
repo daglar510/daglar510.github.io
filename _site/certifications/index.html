@@ -1,47 +1,106 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- 
+    Google Fonts and FontAwesome
+    Loads Poppins font and FontAwesome icon library.
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Certifications | Daglar Duman’s Portfolio</title>
-<meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="Certifications" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="A collection of my professional certifications and training courses, demonstrating expertise across software development, cloud &amp; data analytics, engineering tools, and professional/business skills." />
-<meta property="og:description" content="A collection of my professional certifications and training courses, demonstrating expertise across software development, cloud &amp; data analytics, engineering tools, and professional/business skills." />
-<link rel="canonical" href="http://localhost:4000/certifications/" />
-<meta property="og:url" content="http://localhost:4000/certifications/" />
-<meta property="og:site_name" content="Daglar Duman’s Portfolio" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Certifications" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"A collection of my professional certifications and training courses, demonstrating expertise across software development, cloud &amp; data analytics, engineering tools, and professional/business skills.","headline":"Certifications","url":"http://localhost:4000/certifications/"}</script>
-<!-- End Jekyll SEO tag -->
+  <!-- 
+    Favicons & App Icons
+    The paths point to /assets/favicon/. 
+    Make sure these files exist in that folder.
+  -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
+  <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=e8cbb327ce8f0a819170980c3ff038c93c50896e">
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+  <!-- 
+    Main CSS 
+    Links to your core styles (styles.css) and syntax highlighting (syntax.css).
+  -->
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/syntax.css">
 
-<!-- Setup Google Analytics -->
+  <!-- 
+    Main JavaScript
+    For your site-wide JS (like mobile menu toggles).
+  -->
+  <script src="/assets/js/script.js"></script>
+  
+  <!-- 
+    Dynamically uses site.title from _config.yml for the browser tab
+  -->
+  <title>Daglar Duman's Portfolio</title>
+</head>
+<body>
+  <!-- 
+    Fixed Header Container
+    Wraps your navbar so it remains at the top of the page.
+  -->
+  <div class="fixed-header">
+    <!-- _includes/nav.html -->
+<nav>
+    <div class="left">
+        <a href="/">Daglar Duman</a>
+    </div>
 
+    <!-- Desktop Menu -->
+    <div class="right desktop-nav">
+        <a href="/">
+            <span>Home</span>
+        </a>
+        <a href="/projects/">
+            <span>Projects</span>
+        </a>
+        <a href="/certifications/">
+            <span>Certifications</span>
+        </a>
+        <a href="https://docs.google.com/document/d/1uSct3CwAka_CdZswH5vLNbyl_lTAnzgpTxEOklQBOfs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <span>Resume</span>
+        </a>
+    </div>
 
+    <!-- Mobile Menu Button -->
+    <button class="menu-toggle" aria-label="Toggle menu">
+        <i class="fa fa-bars fa-2x"></i>
+    </button>
 
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+    <!-- Mobile Menu -->
+    <div class="mobile-nav">
+        <a href="/">
+            <span>Home</span>
+        </a>
+        <a href="/projects/">
+            <span>Projects</span>
+        </a>
+        <a href="/certifications/">
+            <span>Certifications</span>
+        </a>
+        <a href="https://docs.google.com/document/d/1uSct3CwAka_CdZswH5vLNbyl_lTAnzgpTxEOklQBOfs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <span>Resume</span>
+        </a>
+    </div>
+</nav>
+  </div>
 
-<!-- end custom head snippets -->
-
-  </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-      
-      <h1><a href="http://localhost:4000/">Daglar Duman's Portfolio</a></h1>
-      
-
-      <!--
+  <!-- 
+    Main Page Content
+    Offset in styles.css with .page { margin-top: ... } if the navbar is fixed.
+  -->
+  <div class="page">
+    <!--
   =====================================================================
   Certifications Page Template
   ---------------------------------------------------------------------
@@ -888,14 +947,34 @@
   =====================================================================
 -->
 
+  </div>
 
-      
-      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-        This site is open source. <a href="https://github.com/daglar510/daglar510.github.io/edit/gh-pages/certifications/certifications.md">Improve this page</a>.
-      </div>
-      
+  <!-- 
+    Footer
+    Renders the shared footer across all pages.
+  -->
+  <footer>
+    <div class="footer-content">
+        <div class="links">
+            <a href="/">
+                <span>Home</span>
+            </a>
+            <a href="/projects/">
+                <span>Projects</span>
+            </a>
+            <a href="/certifications/">
+                <span>Certifications</span>
+            </a>
+            <a href=https://docs.google.com/document/d/1uSct3CwAka_CdZswH5vLNbyl_lTAnzgpTxEOklQBOfs/edit?usp=sharing target="_blank" rel="noopener noreferrer">
+                <span>Resume</span>
+            </a>
+        </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
-  </body>
+    <div class="license">
+        <span>For any question or suggestion for projects, reach out <a class="help" href="mailto:daglarduman510@gmail.com"> Here</a> </span>
+        <p>For More info here is my github <a href="https://github.com/daglar510">CCC</a></p>
+    </div>
+</footer>
+
+</body>
 </html>
