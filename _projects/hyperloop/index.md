@@ -21,7 +21,7 @@ date: 2025-03-22
 
 ## Project Overview
 
-The **Hyperloop Technical Design Report** was submitted to the Teknofest Aviation, Space, and Technology Festival as part of our Hyperloop Geliştirme Yarışması project. This report documents the entire design process—from the initial capsule design to the detailed analyses of propulsion, levitation, braking, and thermal management systems. It also covers the integration of advanced sensors and communication networks to ensure safe and efficient operation.
+The **Hyperloop Technical Design Report** was submitted to the Teknofest Aviation, Space, and Technology Festival as part of our Hyperloop Development Competition project. This report documents the entire design process—from the initial capsule design to the detailed analyses of propulsion, levitation, braking, and thermal management systems. It also covers the integration of advanced sensors and communication networks to ensure safe and efficient operation.
 
 ---
 
