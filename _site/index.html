@@ -5,6 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- 
+    Google Tag (gtag.js) for Analytics
+    Copy and paste this snippet immediately after the <head> tag.
+    This snippet will asynchronously load the Google Tag Manager and configure it with your tracking ID.
+  -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S93V47B75R"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-S93V47B75R');
+  </script>
+  
+  <!-- 
     Google Fonts and FontAwesome
     Loads Poppins font and FontAwesome icon library.
   -->
@@ -16,7 +29,7 @@
   <!-- 
     Favicons & App Icons
     The paths point to /assets/favicon/. 
-    Make sure these files exist in that folder.
+    Ensure these files exist in that folder.
   -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
@@ -27,7 +40,7 @@
   <meta name="theme-color" content="#ffffff">
 
   <!-- 
-    Main CSS 
+    Main CSS
     Links to your core styles (styles.css) and syntax highlighting (syntax.css).
   -->
   <link rel="stylesheet" href="/css/styles.css">
@@ -35,19 +48,20 @@
 
   <!-- 
     Main JavaScript
-    For your site-wide JS (like mobile menu toggles).
+    For your site-wide JS (e.g., mobile menu toggles).
   -->
   <script src="/assets/js/script.js"></script>
   
   <!-- 
-    Dynamically uses site.title from _config.yml for the browser tab
+    Dynamic Title
+    Uses site.title from _config.yml for the browser tab.
   -->
   <title>Daglar Duman's Portfolio</title>
 </head>
 <body>
   <!-- 
     Fixed Header Container
-    Wraps your navbar so it remains at the top of the page.
+    Wraps your navbar so it remains at the top of every page.
   -->
   <div class="fixed-header">
     <!-- _includes/nav.html -->
@@ -97,7 +111,7 @@
 
   <!-- 
     Main Page Content
-    Offset in styles.css with .page { margin-top: ... } if the navbar is fixed.
+    The .page element offset (margin-top) is defined in your CSS to prevent overlap with the fixed navbar.
   -->
   <div class="page">
     
