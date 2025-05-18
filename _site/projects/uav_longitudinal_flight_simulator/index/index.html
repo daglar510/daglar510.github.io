@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- 
+    Google Tag (gtag.js) for Analytics
+    Copy and paste this snippet immediately after the <head> tag.
+    This snippet will asynchronously load the Google Tag Manager and configure it with your tracking ID.
+  -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S93V47B75R"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-S93V47B75R');
+  </script>
+  
+  <!-- 
+    Google Fonts and FontAwesome
+    Loads Poppins font and FontAwesome icon library.
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- 
+    Favicons & App Icons
+    The paths point to /assets/favicon/. 
+    Ensure these files exist in that folder.
+  -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
+  <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- 
+    Main CSS
+    Links to your core styles (styles.css) and syntax highlighting (syntax.css).
+  -->
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+
+  <!-- 
+    Main JavaScript
+    For your site-wide JS (e.g., mobile menu toggles).
+  -->
+  <script src="/assets/js/script.js"></script>
+  
+  <!-- 
+    Dynamic Title
+    Uses site.title from _config.yml for the browser tab.
+  -->
+  <title>Daglar Duman's Portfolio</title>
+</head>
+<body>
+  <!-- 
+    Fixed Header Container
+    Wraps your navbar so it remains at the top of every page.
+  -->
+  <div class="fixed-header">
+    <!-- _includes/nav.html -->
+<nav>
+    <div class="left">
+        <a href="/">Daglar Duman</a>
+    </div>
+
+    <!-- Desktop Menu -->
+    <div class="right desktop-nav">
+        <a href="/">
+            <span>Home</span>
+        </a>
+        <a href="/projects/">
+            <span>Projects</span>
+        </a>
+        <a href="/work-exp/">
+            <span>Work Experience</span>
+        </a>          
+        <a href="/certifications/">
+            <span>Certifications</span>
+        </a>
+        <a href="https://docs.google.com/document/d/1uSct3CwAka_CdZswH5vLNbyl_lTAnzgpTxEOklQBOfs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <span>Resume</span>
+        </a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button class="menu-toggle" aria-label="Toggle menu">
+        <i class="fa fa-bars fa-2x"></i>
+    </button>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-nav">
+        <a href="/">
+            <span>Home</span>
+        </a>
+        <a href="/projects/">
+            <span>Projects</span>
+        </a>
+        <a href="/certifications/">
+            <span>Certifications</span>
+        </a>
+        <a href="https://docs.google.com/document/d/1uSct3CwAka_CdZswH5vLNbyl_lTAnzgpTxEOklQBOfs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <span>Resume</span>
+        </a>
+    </div>
+</nav>
+  </div>
+
+  <!-- 
+    Main Page Content
+    The .page element offset (margin-top) is defined in your CSS to prevent overlap with the fixed navbar.
+  -->
+  <div class="page">
+    <div class="post-view">
+    <div class="summary">
+        
+       
+        
+               
+        <img src="/_projects/uav_longitudinal_flight_simulator/figure_1.png" alt="UAV Longitudinal Flight Dynamics Simulator image">
+        
+        <div class="title-header">
+            <h1>UAV Longitudinal Flight Dynamics Simulator</h1>
+        </div>
+        
+        <div class="project-description">
+            <h2>Project Overview</h2>
+            <p>A technical report for our open-source UAV longitudinal flight dynamics simulator project. This report covers UAV modeling, input control, state-space simulation, visualization systems, aerodynamic and stability analyses, sensor integration, safety features, and system requirements.</p>
+        </div>
+        <div class="skills-card">
+            <h2>Skills Used</h2> 
+            <div class="skills-list">
+                
+                <span class="skill">Aerospace Engineering</span>    
+                
+                <span class="skill">Flight Dynamics</span>    
+                
+                <span class="skill">Python</span>    
+                
+                <span class="skill">Control Systems</span>    
+                
+                <span class="skill">Data Visualization</span>    
+                
+            </div>
+        </div>
+    </div>
+      
+    <div class="content">
+        <h2 id="project-overview">Project Overview</h2>
+
+<p>The <strong>UAV Longitudinal Flight Dynamics Simulator</strong> is an open-source Python tool developed to simulate and visualize the longitudinal (pitch-axis) flight behavior of UAVs. This report documents the development and testing of the simulation system, covering UAV modeling, aerodynamic and control analysis, and real-time visualizations. It also outlines the integration of elevator input profiles and system stability assessment tools.</p>
+
+<hr />
+
+<h2 id="1-uav-modeling-simulation--visualization">1. UAV Modeling, Simulation &amp; Visualization</h2>
+
+<h3 id="11-uav-specifications">1.1 UAV Specifications</h3>
+
+<ul>
+  <li><strong>Supported Models:</strong>
+    <ul>
+      <li>Baykar TB2</li>
+      <li>TUSAŞ Anka</li>
+      <li>Aksungur</li>
+      <li>Vestel Karayel</li>
+      <li>General Atomics Predator</li>
+      <li>IAI Heron</li>
+    </ul>
+  </li>
+  <li><strong>Flight Axis Simulated:</strong>
+    <ul>
+      <li>Longitudinal (Pitch Axis)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="12-simulation-overview">1.2 Simulation Overview</h3>
+
+<p>The tool enables users to simulate the pitch-axis response of UAVs to various elevator input types. Key aspects include:</p>
+
+<ul>
+  <li><strong>State-Space Modeling:</strong><br />
+UAVs are modeled using linearized state-space representations.</li>
+  <li><strong>Numerical Integration:</strong><br />
+The system uses Runge-Kutta methods (<code class="language-plaintext highlighter-rouge">scipy.solve_ivp</code>) to simulate time-domain responses.</li>
+  <li><strong>Visualization:</strong><br />
+2D plots and 3D phase-space visualizations show state evolution.</li>
+</ul>
+
+<p><em>Example Diagram:</em></p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/uav_longitudinal_flight_simulator//figure_1_3D.png" alt="figure_1_3D.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<hr />
+
+<h2 id="2-input-control--flight-data">2. Input Control &amp; Flight Data</h2>
+
+<p>The simulator supports different elevator input types and computes the corresponding flight responses:</p>
+
+<ul>
+  <li><strong>Step Input:</strong><br />
+Simulates a sudden elevator deflection.</li>
+  <li><strong>Doublet Input:</strong><br />
+Used to analyze damping and short-period response.</li>
+  <li><strong>Custom Input:</strong><br />
+User-defined elevator time-series input.</li>
+</ul>
+
+<p>Each input profile affects pitch rate, angle of attack, forward velocity deviation, and pitch angle, which are visualized in simulation outputs.</p>
+
+<hr />
+
+<h2 id="3-sensor-integration--control-feedback">3. Sensor Integration &amp; Control Feedback</h2>
+
+<p>Although the simulation operates in software, sensor models and control feedback are considered:</p>
+
+<ul>
+  <li><strong>Virtual IMU Simulation:</strong><br />
+Simulates output from a 10 DOF IMU (acceleration, gyro, orientation).</li>
+  <li><strong>Virtual Sensor Models:</strong><br />
+Mimics behavior of realistic flight sensors to allow for control loop testing.</li>
+  <li><strong>Control Feedback (Planned):</strong><br />
+PID/State-feedback control modules are under development for closed-loop response testing.</li>
+</ul>
+
+<hr />
+
+<h2 id="4-aerodynamics--stability-analysis">4. Aerodynamics &amp; Stability Analysis</h2>
+
+<p>Aerodynamic and stability parameters are derived from each UAV’s geometry and coefficients:</p>
+
+<ul>
+  <li><strong>Aerodynamic Database:</strong><br />
+Pre-loaded aerodynamic models for each UAV.</li>
+  <li><strong>Mode Identification:</strong><br />
+The system detects and characterizes phugoid and short-period modes.</li>
+  <li><strong>Stability Metrics:</strong><br />
+Calculates eigenvalues, natural frequency, and damping ratio in real-time.</li>
+</ul>
+
+<hr />
+
+<h2 id="5-propulsion--system-characteristics">5. Propulsion &amp; System Characteristics</h2>
+
+<h3 id="51-propulsion-approximation">5.1 Propulsion Approximation</h3>
+
+<p>While propulsion is not actively modeled in longitudinal analysis, a constant-speed assumption is used:</p>
+<ul>
+  <li><strong>Speed Preset:</strong><br />
+Simulated UAVs fly at trimmed cruise conditions (~100–200 km/h depending on model).</li>
+  <li><strong>Disturbance Response:</strong><br />
+Inputs affect longitudinal axis only; propulsion modeled as steady-state.</li>
+</ul>
+
+<h3 id="52-system-constraints">5.2 System Constraints</h3>
+
+<ul>
+  <li><strong>Numerical Stability:</strong><br />
+Integration step size and stiffness are managed by <code class="language-plaintext highlighter-rouge">solve_ivp</code>.</li>
+  <li><strong>Data Scaling:</strong><br />
+Inputs and outputs are normalized for visualization.</li>
+</ul>
+
+<hr />
+
+<h2 id="6-visual-output--result-interpretation">6. Visual Output &amp; Result Interpretation</h2>
+
+<h3 id="61-2d-time-domain-plots">6.1 2D Time-Domain Plots</h3>
+
+<p>Plots include:</p>
+<ul>
+  <li>Forward speed deviation (u)</li>
+  <li>Angle of attack (α)</li>
+  <li>Pitch rate (q)</li>
+  <li>Pitch angle (θ)</li>
+  <li>Elevator input</li>
+</ul>
+
+<h3 id="62-3d-phase-space-visualization">6.2 3D Phase-Space Visualization</h3>
+
+<p>A 3D plot shows evolution in the α–q–θ state-space, highlighting stability characteristics and control response.</p>
+
+<hr />
+
+<h2 id="7-safety-checks--simulation-limits">7. Safety Checks &amp; Simulation Limits</h2>
+
+<p>To ensure accurate and safe simulations, the following checks are implemented:</p>
+
+<ul>
+  <li><strong>Numerical Instability Detection:</strong><br />
+Alerts users if simulation diverges.</li>
+  <li><strong>State Clipping:</strong><br />
+Prevents unrealistic values from visualizing.</li>
+  <li><strong>Input Validation:</strong><br />
+Elevator inputs are checked for format and range.</li>
+</ul>
+
+<hr />
+
+<h2 id="8-system-architecture--communication">8. System Architecture &amp; Communication</h2>
+
+<p>The simulation tool is modular and extendable:</p>
+
+<ul>
+  <li><strong>Language:</strong><br />
+Python 3.x</li>
+  <li><strong>Libraries Used:</strong><br />
+NumPy, SciPy, Matplotlib</li>
+  <li><strong>Architecture:</strong><br />
+Input parser → State-space solver → Visualizer</li>
+</ul>
+
+<hr />
+
+<h2 id="9-performance--development-roadmap">9. Performance &amp; Development Roadmap</h2>
+
+<h3 id="91-performance-notes">9.1 Performance Notes</h3>
+
+<p>The simulation is optimized for real-time or near real-time operation on standard machines.</p>
+
+<h3 id="92-future-work">9.2 Future Work</h3>
+
+<ul>
+  <li>Closed-loop PID and LQR control modules</li>
+  <li>GUI frontend</li>
+  <li>Real-world flight data calibration</li>
+  <li>Extended axes (lateral-directional simulation)</li>
+</ul>
+
+<hr />
+
+<h2 id="appendix">Appendix</h2>
+
+<p>For full source code, documentation, and UAV model definitions, visit the GitHub repository.
+<a href="https://github.com/daglar510/UAV_flight_dynamics_simulator">Github</a></p>
+
+<hr />
+
+<p><em>Project by Dağlar Duman, 2025</em></p>
+
+    </div>
+</div>
+
+
+  </div>
+
+  <!-- 
+    Footer
+    Renders the shared footer across all pages.
+  -->
+  <footer>
+    <div class="footer-content">
+        <div class="links">
+            <a href="/">
+                <span>Home</span>
+            </a>
+            <a href="/projects/">
+                <span>Projects</span>
+            </a>
+            <a href="/certifications/">
+                <span>Certifications</span>
+            </a>
+            <a href=https://docs.google.com/document/d/1uSct3CwAka_CdZswH5vLNbyl_lTAnzgpTxEOklQBOfs/edit?usp=sharing target="_blank" rel="noopener noreferrer">
+                <span>Resume</span>
+            </a>
+        </div>
+    </div>
+    <div class="license">
+        <span>For any question or suggestion for projects, reach out <a class="help" href="mailto:daglarduman510@gmail.com"> Here</a> </span>
+        <p>For More info here is my github <a href="https://github.com/daglar510">CCC</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
