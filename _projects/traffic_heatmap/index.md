@@ -10,7 +10,7 @@ skills:
   - PyDeck
   - Map Analytics
   - RTLS & GPS
-main-image: /demo.png
+main-image: /demo.PNG
 lang: en
 ---
 
@@ -41,7 +41,7 @@ See the live demo:
 *Below: Example heatmap from a Borusan site dataset.  
 Each 3D bar height/color shows the number of GPS points in that grid cell.*
 
-{% include image-gallery.html images="demo.png" height="350" %}
+{% include image-gallery.html images="demo.PNG" height="350" %}
 
 ---
 
