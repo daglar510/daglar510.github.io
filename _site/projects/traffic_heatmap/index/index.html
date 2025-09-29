@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- 
+    Google Tag (gtag.js) for Analytics
+    Copy and paste this snippet immediately after the <head> tag.
+    This snippet will asynchronously load the Google Tag Manager and configure it with your tracking ID.
+  -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S93V47B75R"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-S93V47B75R');
+  </script>
+  
+  <!-- 
+    Google Fonts and FontAwesome
+    Loads Poppins font and FontAwesome icon library.
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- 
+    Favicons & App Icons
+    The paths point to /assets/favicon/. 
+    Ensure these files exist in that folder.
+  -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
+  <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- 
+    Main CSS
+    Links to your core styles (styles.css) and syntax highlighting (syntax.css).
+  -->
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+
+  <!-- 
+    Main JavaScript
+    For your site-wide JS (e.g., mobile menu toggles).
+  -->
+  <script src="/assets/js/script.js"></script>
+  
+  <!-- 
+    Dynamic Title
+    Uses site.title from _config.yml for the browser tab.
+  -->
+  <title>Daglar Duman's Portfolio</title>
+</head>
+<body>
+  <!-- 
+    Fixed Header Container
+    Wraps your navbar so it remains at the top of every page.
+  -->
+  <div class="fixed-header">
+    <!-- _includes/nav.html -->
+<nav>
+    <div class="left">
+        <a href="/">Daglar Duman</a>
+    </div>
+
+    <!-- Desktop Menu -->
+    <div class="right desktop-nav">
+        <a href="/">
+            <span>Home</span>
+        </a>
+        <a href="/projects/">
+            <span>Projects</span>
+        </a>
+        <a href="/certifications/">
+            <span>Certifications</span>
+        </a>
+        <a href="https://docs.google.com/document/d/1uSct3CwAka_CdZswH5vLNbyl_lTAnzgpTxEOklQBOfs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <span>Resume</span>
+        </a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button class="menu-toggle" aria-label="Toggle menu">
+        <i class="fa fa-bars fa-2x"></i>
+    </button>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-nav">
+        <a href="/">
+            <span>Home</span>
+        </a>
+        <a href="/projects/">
+            <span>Projects</span>
+        </a>
+        <a href="/certifications/">
+            <span>Certifications</span>
+        </a>
+        <a href="https://docs.google.com/document/d/1uSct3CwAka_CdZswH5vLNbyl_lTAnzgpTxEOklQBOfs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <span>Resume</span>
+        </a>
+    </div>
+</nav>
+  </div>
+
+  <!-- 
+    Main Page Content
+    The .page element offset (margin-top) is defined in your CSS to prevent overlap with the fixed navbar.
+  -->
+  <div class="page">
+    <div class="post-view">
+    <div class="summary">
+        
+       
+        
+               
+        <img src="/_projects/traffic_heatmap/demov2.png" alt="Tractor Movement Heatmap (Borusan Demo – April 2025) image">
+        
+        <div class="title-header">
+            <h1>Tractor Movement Heatmap (Borusan Demo – April 2025)</h1>
+        </div>
+        
+        <div class="project-description">
+            <h2>Project Overview</h2>
+            <p>Visualize millions of GPS points with blazing-fast interactive 3D heatmaps. Analyze movement, traffic, or asset density from simple CSVs—on a satellite basemap!</p>
+        </div>
+        <div class="skills-card">
+            <h2>Skills Used</h2> 
+            <div class="skills-list">
+                
+                <span class="skill">Data Visualization</span>    
+                
+                <span class="skill">Python</span>    
+                
+                <span class="skill">Streamlit</span>    
+                
+                <span class="skill">PyDeck</span>    
+                
+                <span class="skill">Map Analytics</span>    
+                
+                <span class="skill">RTLS & GPS</span>    
+                
+            </div>
+        </div>
+    </div>
+      
+    <div class="content">
+        <h2 id="project-overview">Project Overview</h2>
+
+<p><strong>Tractor Movement Heatmap</strong> is a high-performance visualization tool for analyzing real-world GPS/RTLS datasets—originally built to show traffic and activity density for factory vehicles at Borusan.<br />
+You simply upload a CSV (with <code class="language-plaintext highlighter-rouge">Lat</code>, <code class="language-plaintext highlighter-rouge">Lon</code> columns) and instantly get a live, interactive 3D density map—ready to explore, present, or analyze movement patterns.</p>
+
+<p>See the live demo:<br />
+<a href="https://traffic-map-daglar510.streamlit.app/">traffic-map-daglar510.streamlit.app</a></p>
+
+<hr />
+
+<h2 id="key-features">Key Features</h2>
+
+<ul>
+  <li><strong>Works with any CSV</strong> – just provide latitude and longitude columns.</li>
+  <li><strong>Instant 3D heatmaps</strong> – grid cell size adjustable from ultra-fine (0.5m) to broad (10m+).</li>
+  <li><strong>Bar height and color sharpness controls</strong> – reveal subtle or extreme density variations.</li>
+  <li><strong>Green → Yellow → Red color scale</strong> – instantly spot traffic bottlenecks, hotspots, or idle zones.</li>
+  <li><strong>Interactive satellite basemap</strong> – real-world context for every point.</li>
+  <li><strong>Scalable for millions of points</strong> – works offline, or see the live online demo.</li>
+  <li><strong>Hover tooltips</strong> – precise density info for any location.</li>
+</ul>
+
+<hr />
+
+<h2 id="demo-preview">Demo Preview</h2>
+
+<p><em>Below: Example heatmap from a Borusan site dataset.<br />
+Each 3D bar height/color shows the number of GPS points in that grid cell.</em></p>
+
+<div class="image-gallery" style="--gallery-height: 350px;">
+  
+      
+      
+          
+          <img src="/projects/traffic_heatmap//demov2.png" alt="demov2.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<hr />
+
+<h2 id="how-it-works">How It Works</h2>
+
+<ul>
+  <li><strong>Upload any GPS/RTLS CSV</strong><br />
+(<code class="language-plaintext highlighter-rouge">Lat</code>, <code class="language-plaintext highlighter-rouge">Lon</code> columns required—additional columns supported)</li>
+  <li><strong>Adjust settings live</strong>:
+    <ul>
+      <li><strong>Grid cell size</strong> (resolution)</li>
+      <li><strong>Max bar height</strong> (3D effect)</li>
+      <li><strong>Color sharpness</strong> (density scaling)</li>
+    </ul>
+  </li>
+  <li><strong>Hover to inspect</strong> – See real point counts per cell, not just “hot” or “cold” color.</li>
+</ul>
+
+<p><em>No data leaves your machine – fully local app, but also available online.</em></p>
+
+<hr />
+
+<h2 id="try-it">Try It!</h2>
+
+<p><a href="https://traffic-map-daglar510.streamlit.app/"><strong>Open the live demo (Streamlit Cloud)</strong></a></p>
+
+<hr />
+
+<h2 id="example-data-format">Example Data Format</h2>
+
+<pre><code class="language-csv">assetId,assetName,updateDate,Lat,Lon
+57ee4bdc-6018-418a-bbbb-a116b4bb85e6,16MEH31,2025-04-02T23:44:09,40.40727,29.09322
+...
+</code></pre>
+
+<hr />
+
+<h2 id="technology-stack">Technology Stack</h2>
+
+<ul>
+  <li>Python (Streamlit, PyDeck, Pandas, Matplotlib, NumPy)</li>
+  <li>3D map rendering on satellite basemap</li>
+</ul>
+
+<hr />
+
+<p><em>Project by Dağlar Duman, 2025 –<br />
+For full code and documentation, see the <a href="https://github.com/daglar510/tractor-traffic-heatmap">GitHub repo</a>.</em></p>
+
+    </div>
+</div>
+
+
+  </div>
+
+  <!-- 
+    Footer
+    Renders the shared footer across all pages.
+  -->
+  <footer>
+    <div class="footer-content">
+        <div class="links">
+            <a href="/">
+                <span>Home</span>
+            </a>
+            <a href="/projects/">
+                <span>Projects</span>
+            </a>
+            <a href="/certifications/">
+                <span>Certifications</span>
+            </a>
+            <a href=https://docs.google.com/document/d/1uSct3CwAka_CdZswH5vLNbyl_lTAnzgpTxEOklQBOfs/edit?usp=sharing target="_blank" rel="noopener noreferrer">
+                <span>Resume</span>
+            </a>
+        </div>
+    </div>
+    <div class="license">
+        <span>For any question or suggestion for projects, reach out <a class="help" href="mailto:daglarduman510@gmail.com"> Here</a> </span>
+        <p>For More info here is my github <a href="https://github.com/daglar510">CCC</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
