@@ -12,6 +12,7 @@ skills:
   - RTLS & GPS
 main-image: /demov2.png
 lang: en
+date: 2025-04-03
 ---
 
 ## Project Overview

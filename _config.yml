@@ -24,7 +24,7 @@ profile_image: ./assets/images/profile-image/avatar.jpeg
 
 # Link your resume
 # You can place your resume in assets/resume/{resume file.pdf} or add external link such as pdf saved in google drive 
-resume-url: https://docs.google.com/document/d/1uSct3CwAka_CdZswH5vLNbyl_lTAnzgpTxEOklQBOfs/edit?usp=sharing
+resume-url: https://drive.google.com/file/d/1lNEwO062XAjYOgHTHNr1qUer789RtN3C/view?usp=sharing
 
 
 # Set up external links - this will show up as small icons next to your name.
@@ -207,7 +207,14 @@ lemon theme:
   light_background: "#fff5f6"
 
 
-
+#nofucking clue
+colors:
+  text: "#1a1c20"
+  border: "#e0e7ff"
+  link: "#6366f1"
+  highlight: "#4f46e5"
+  background: "#ffffff"
+  light_background: "#f8fafc"
 
 
 
@@ -218,6 +225,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+    sort_by: date
+    sort_order: descending
 
 
 markdown: kramdown

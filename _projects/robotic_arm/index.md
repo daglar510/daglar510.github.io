@@ -15,7 +15,7 @@ skills:
   - Technical Drawing
   - Problem-Solving
 main-image: /Picture5.png  # Final assembled arm as the main image
-date: 2022-12-01
+date: 2022-01-10
 ---
 
 # SIMPLE PROGRAMMABLE ROBOTIC ARM
