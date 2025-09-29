@@ -11,6 +11,7 @@ skills:
   - Data Visualization
 main-image: /uav_github_preview_vol4.png
 lang: en
+date: 2025-07-28
 ---
 
 # UAV Flight Dynamics Simulator

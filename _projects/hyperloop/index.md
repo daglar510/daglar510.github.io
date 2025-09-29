@@ -16,7 +16,7 @@ skills:
   - Energy Management
 main-image: /hyperloop-main.jpg
 lang: en
-date: 2025-03-22
+date: 2024-05-06
 ---
 
 ## Project Overview
