@@ -6,8 +6,13 @@
         {% for item in site.projects reversed %}
     <a href="{{ item.url }}" class="project-link">
         <div class="project-card">
-            {% assign folder_path = item.path | split: "/" | slice: 0, 2 | join: "/" %}
-            {% assign image_path = "/" | append: folder_path | append: item['main-image'] %}
+            {% assign main_image = item['main-image'] %}
+            {% if main_image contains '/assets/' %}
+                {% assign image_path = main_image %}
+            {% else %}
+                {% assign folder_path = item.path | split: "/" | slice: 0, 2 | join: "/" %}
+                {% assign image_path = "/" | append: folder_path | append: main_image %}
+            {% endif %}
             <img src="{{ image_path }}" alt="{{ item.title }} image">
             <h3 class="project-title">{{ item.title }}</h3>
             <div class="project-skills">

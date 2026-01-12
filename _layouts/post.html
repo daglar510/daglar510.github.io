@@ -6,8 +6,13 @@ layout: wrapper
     <div class="summary">
         
        
-        {% assign folder_path = page.path | split: "/" | slice: 0, 2 | join: "/" %}
-        {% assign image_path = "/" | append: folder_path | append: page['main-image'] %}       
+        {% assign main_image = page['main-image'] %}
+        {% if main_image contains '/assets/' %}
+            {% assign image_path = main_image %}
+        {% else %}
+            {% assign folder_path = page.path | split: "/" | slice: 0, 2 | join: "/" %}
+            {% assign image_path = "/" | append: folder_path | append: main_image %}
+        {% endif %}       
         <img src="{{ image_path }}" alt="{{ page.title }} image">
         
         <div class="title-header">

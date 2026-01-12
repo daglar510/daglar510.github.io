@@ -11,13 +11,23 @@
               loading="lazy"
           />
       {% else %}
-          {% assign page_url_without_index = page.url | remove: 'index' | remove: '.html' %}
-          <img 
-              src="{{ page_url_without_index }}{{ image_name }}" 
-              alt="{{image_name}}"
-              loading="lazy"
-              onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');"
-          />
+          {% assign first_char = image_name | slice: 0 %}
+          {% if first_char == '/' %}
+              <img
+                  src="{{ image_name }}"
+                  alt="{{image_name}}"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');"
+              />
+          {% else %}
+              {% assign page_url_without_index = page.url | remove: 'index' | remove: '.html' %}
+              <img
+                  src="{{ page_url_without_index }}{{ image_name }}"
+                  alt="{{image_name}}"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');"
+              />
+          {% endif %}
       {% endif %}
   {% endfor %}
 </div>
