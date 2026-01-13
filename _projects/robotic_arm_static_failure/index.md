@@ -27,6 +27,8 @@ is realistic for manufacturing, weight, and cost.
 {% include image-gallery.html images="/assets/img/robotic_arm_static_failure/robotic_arm_render.jpg, /assets/img/robotic_arm_static_failure/robotic_arm_technical_sketch.jpg" height="320" %}
 
 ---
+### Video Presentation
+{% include youtube-video.html id="TH60euTRxBk" autoplay="true" %}
 
 ## Design Requirements and Assumptions
 ### Design targets (worst-case)
