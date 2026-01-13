@@ -94,10 +94,11 @@ A modern, interactive web application for simulating and analyzing the flight dy
 - Phugoid: Unstable (ζ = -0.050)
 
 **Time-Domain Plots:**
-![4DOF Time Domain Plot](/_projects/uav_longitudinal_flight_simulator/4dof_2dplot.png)
-
+#### 4DOF Time Domain Plot
+{% include image-gallery.html images="/_projects/uav_longitudinal_flight_simulator/4dof_2dplot.png" height="1024" %}
 **3D State-Space Trajectory:**
-![4DOF 3D Trajectory](/_projects/uav_longitudinal_flight_simulator/4dof_3dplot.PNG)
+#### 4DOF 3D Trajectory
+{% include image-gallery.html images="/_projects/uav_longitudinal_flight_simulator/4dof_3dplot.PNG" height="1024" %}
 
 *Interpretation:*
 - Short period mode damps quickly (good handling)
@@ -117,11 +118,11 @@ A modern, interactive web application for simulating and analyzing the flight dy
 - Eigenvalue analysis: Not implemented for 6DOF
 
 **Time-Domain Plots:**
-![6DOF Time Domain Plot](/_projects/uav_longitudinal_flight_simulator/6dof_2dplot.png)
-
+#### 6DOF Time Domain Plot
+{% include image-gallery.html images="/_projects/uav_longitudinal_flight_simulator/6dof_2dplot.png" height="3072" %}
 **3D Trajectory:**
-![6DOF 3D Trajectory](/_projects/uav_longitudinal_flight_simulator/6dof_3dplot.png)
-
+#### 6DOF 3D Trajectory
+{% include image-gallery.html images="/_projects/uav_longitudinal_flight_simulator/6dof_3dplot.png" height="1024" %}
 *Interpretation:*
 - Full motion simulation: velocities, angular rates, attitude, position, and energy
 - Visualizes both aircraft path and orientation in 3D

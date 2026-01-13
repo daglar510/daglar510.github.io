@@ -46,6 +46,26 @@
   <link rel="stylesheet" href="/css/styles.css">
   <link rel="stylesheet" href="/css/syntax.css">
 
+  <!--
+    KaTeX for LaTeX Math Rendering
+    Renders inline math with $...$ and display math with \[...\]
+  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '$', right: '$', display: false},
+          {left: '\\[', right: '\\]', display: true},
+          {left: '\\(', right: '\\)', display: false}
+        ]
+      });
+    });
+  </script>
+
   <!-- 
     Main JavaScript
     For your site-wide JS (e.g., mobile menu toggles).
@@ -281,11 +301,34 @@
   <li>Phugoid: Unstable (ζ = -0.050)</li>
 </ul>
 
-<p><strong>Time-Domain Plots:</strong>
-<img src="/_projects/uav_longitudinal_flight_simulator/4dof_2dplot.png" alt="4DOF Time Domain Plot" /></p>
+<p><strong>Time-Domain Plots:</strong></p>
+<h4 id="4dof-time-domain-plot">4DOF Time Domain Plot</h4>
 
-<p><strong>3D State-Space Trajectory:</strong>
-<img src="/_projects/uav_longitudinal_flight_simulator/4dof_3dplot.PNG" alt="4DOF 3D Trajectory" /></p>
+<div class="image-gallery" style="--gallery-height: 1024px;">
+  
+      
+      
+          
+          
+              <img src="/_projects/uav_longitudinal_flight_simulator/4dof_2dplot.png" alt="/_projects/uav_longitudinal_flight_simulator/4dof_2dplot.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+          
+      
+  
+</div>
+<p><strong>3D State-Space Trajectory:</strong></p>
+<h4 id="4dof-3d-trajectory">4DOF 3D Trajectory</h4>
+
+<div class="image-gallery" style="--gallery-height: 1024px;">
+  
+      
+      
+          
+          
+              <img src="/_projects/uav_longitudinal_flight_simulator/4dof_3dplot.PNG" alt="/_projects/uav_longitudinal_flight_simulator/4dof_3dplot.PNG" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+          
+      
+  
+</div>
 
 <p><em>Interpretation:</em></p>
 <ul>
@@ -310,12 +353,34 @@
   <li>Eigenvalue analysis: Not implemented for 6DOF</li>
 </ul>
 
-<p><strong>Time-Domain Plots:</strong>
-<img src="/_projects/uav_longitudinal_flight_simulator/6dof_2dplot.png" alt="6DOF Time Domain Plot" /></p>
+<p><strong>Time-Domain Plots:</strong></p>
+<h4 id="6dof-time-domain-plot">6DOF Time Domain Plot</h4>
 
-<p><strong>3D Trajectory:</strong>
-<img src="/_projects/uav_longitudinal_flight_simulator/6dof_3dplot.png" alt="6DOF 3D Trajectory" /></p>
+<div class="image-gallery" style="--gallery-height: 3072px;">
+  
+      
+      
+          
+          
+              <img src="/_projects/uav_longitudinal_flight_simulator/6dof_2dplot.png" alt="/_projects/uav_longitudinal_flight_simulator/6dof_2dplot.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+          
+      
+  
+</div>
+<p><strong>3D Trajectory:</strong></p>
+<h4 id="6dof-3d-trajectory">6DOF 3D Trajectory</h4>
 
+<div class="image-gallery" style="--gallery-height: 1024px;">
+  
+      
+      
+          
+          
+              <img src="/_projects/uav_longitudinal_flight_simulator/6dof_3dplot.png" alt="/_projects/uav_longitudinal_flight_simulator/6dof_3dplot.png" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+          
+      
+  
+</div>
 <p><em>Interpretation:</em></p>
 <ul>
   <li>Full motion simulation: velocities, angular rates, attitude, position, and energy</li>

@@ -16,8 +16,8 @@ skills:
   - Reranking (BAAI/bge-reranker-v2-m3)
   - Hugging Face Transformers
   - Evaluation (ROUGE-L, BLEU)
-main-image: /assets/img/rag_gutenberg_2347/rag_avg_score_chart.png
-date: 2026-01-12
+main-image: /assets/img/rag_gutenberg_2347/rag_header.png
+date: 2026-01-10
 ---
 
 ## Overview

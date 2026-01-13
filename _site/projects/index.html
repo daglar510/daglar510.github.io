@@ -46,6 +46,26 @@
   <link rel="stylesheet" href="/css/styles.css">
   <link rel="stylesheet" href="/css/syntax.css">
 
+  <!--
+    KaTeX for LaTeX Math Rendering
+    Renders inline math with $...$ and display math with \[...\]
+  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '$', right: '$', display: false},
+          {left: '\\[', right: '\\]', display: true},
+          {left: '\\(', right: '\\)', display: false}
+        ]
+      });
+    });
+  </script>
+
   <!-- 
     Main JavaScript
     For your site-wide JS (e.g., mobile menu toggles).
@@ -120,11 +140,39 @@
 
     <div class="grid-container">
         
+    <a href="/projects/tpms_heatsink/index/" class="project-link">
+        <div class="project-card">
+            
+            
+            <img src="/assets/img/tpms_heatsink/tpms_heatsink_header.png" alt="TPMS Heat Sink Design Trade Study — Gyroid vs Schwarz-D (1-CPU & 2-CPU) | MTH450 image">
+            <h3 class="project-title">TPMS Heat Sink Design Trade Study — Gyroid vs Schwarz-D (1-CPU & 2-CPU) | MTH450</h3>
+            <div class="project-skills">
+                
+                    <span class="skill">Heat Transfer</span>
+                
+                    <span class="skill">Thermal Resistance Networks</span>
+                
+                    <span class="skill">Thermal Design</span>
+                
+                    <span class="skill">Fusion 360 Simulation (Thermal/Flow)</span>
+                
+                    <span class="skill">MATLAB</span>
+                
+                    <span class="skill">CAD Modeling</span>
+                
+                    <span class="skill">Engineering Trade Studies</span>
+                
+            </div>
+            <p class="project-description">TPMS lattice heat sink trade study comparing Gyroid and Schwarz-D for 1-CPU and 2-CPU thermal loads. Built analytical thermal-resistance networks + MATLAB sizing model and validated with Fusion 360 flow/thermal simulations under natural vs forced convection.</p>
+            <button class="read-more">Read more →</button>
+        </div>
+    </a>
+
     <a href="/projects/rag_gutenberg_2347/index/" class="project-link">
         <div class="project-card">
             
             
-            <img src="/assets/img/rag_gutenberg_2347/rag_avg_score_chart.png" alt="RAG Pipeline Benchmark — NarrativeQA on Project Gutenberg #2347 image">
+            <img src="/assets/img/rag_gutenberg_2347/rag_header.png" alt="RAG Pipeline Benchmark — NarrativeQA on Project Gutenberg #2347 image">
             <h3 class="project-title">RAG Pipeline Benchmark — NarrativeQA on Project Gutenberg #2347</h3>
             <div class="project-skills">
                 
